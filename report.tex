@@ -1,0 +1,250 @@
+\documentclass[a4paper,12pt,oneside]{article}
+\usepackage{amsmath}
+\usepackage{mathtools}
+% \usepackage{caption}
+\usepackage[labelformat=empty]{caption}
+\usepackage{mathptmx}
+\usepackage{fixltx2e}
+\usepackage{graphicx}
+\usepackage[margin=1.0in]{geometry}
+\usepackage{float}
+\let\counterwithout\relax
+\let\counterwithin\relax
+\usepackage{setspace}
+\usepackage{chngcntr}
+\usepackage{fancyhdr}
+\usepackage{etoolbox}
+\patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{\thepage}
+%\renewcommand{\headrulewidth}{0.0pt}
+%\renewcommand{\footrulewidth}{0.0pt}
+
+
+\begin{document}
+\thispagestyle{empty}
+%\pagenumbering{gobble}
+\begin{center}
+
+\large{\textbf{{Generating Usability Reports from User Inputs and Eye Movements}}}
+\setlength{\baselineskip}{1.5\baselineskip}
+\\
+\vspace{5mm}
+\textbf{PROJECT REPORT}
+
+Submitted in the partial fulfilment of the award of the degree
+of
+\\
+\textbf{Bachelor of Technology}
+\\
+in
+\\
+\textbf{Computer Science \& Engineering}
+\\
+of
+\\
+\textbf{APJ Abdul Kalam Technological University}
+\\
+by
+\\
+\textbf{Ganesh Sekhar}
+\\
+\textbf{Sachin Sajan Punnoose}
+\\
+\textbf{Shan Eapen Koshy}
+\\
+\textbf{S Hemanth}
+\\
+\vspace{5mm}
+\begin{figure}[H]
+\centering
+\includegraphics[width=4cm]{ceclogo.png}
+\end{figure}
+\textbf{November 2019}
+\vspace{8mm}
+\\
+Department of Computer Engineering
+\\
+College of Engineering, Chengannur, Kerala -689121
+\\
+Phone: (0479) 2454125, 2451424; Fax: (0479) 2451424
+\\
+\end{center}
+
+\newpage
+\thispagestyle{empty}
+\begin{center}
+\setlength{\baselineskip}{1.5\baselineskip}
+{\large\textbf{COLLEGE OF ENGINEERING, CHENGANNUR}}
+\\
+{\large\textbf{KERALA}}
+\\
+\begin{figure}[H]
+\centering
+\includegraphics[width=4cm]{ceclogo.png}
+\end{figure}
+\setlength{\baselineskip}{1.5\baselineskip}
+\textbf{Department of Computer Engineering}
+\\
+\textbf{CERTIFICATE}
+\\
+This is to certify that the seminar entitled
+\\
+\textbf{Generating Usability Reports from User Inputs and Eye Movements}
+\\
+Submitted by
+\\
+\textbf{Ganesh Sekhar}
+\\
+\textbf{Sachin Sajan Punnoose}
+\\
+\textbf{Shan Eapen Koshy}
+\\
+\textbf{S Hemanth}
+\\
+is a bonafide record of the work done by him.
+\end{center}
+\vspace{20ex}
+\hspace{5ex}
+% \textbf{Mrs.Shiny B}
+\hspace{15ex}
+% \textbf{Mrs.Shiny B}
+\hspace{16ex}
+% \textbf{Dr. Smitha Dharan}
+\\
+\vspace{0ex}
+\hspace{4ex}
+\textbf{Co-ordinator}
+\hspace{20ex}
+\textbf{Guide}
+\hspace{16ex}
+\textbf{Head of the Department} 
+\newpage
+\pagenumbering{roman}
+\renewcommand{\headrulewidth}{0.0pt}
+\renewcommand{\footrulewidth}{0.0pt}
+\begin{center}
+\large{\textbf{ACKNOWLEDGEMENT}}
+\end{center}
+\vspace{6ex}
+\setlength{\baselineskip}{1.5\baselineskip}
+\paragraph{}
+I am greatly indebted to \textbf{God Almighty} for being the guiding light throughout with his
+abundant grace and blessings that strengthened me to do this endeavour with confidence.
+\paragraph{}
+I express my heartfelt gratitude towards \textbf{Dr. Jacob Thomas V.}, Principal, College
+of Engineering Chengannur for extending all the facilities required for doing my seminar.
+I would also like to thank \textbf{Dr. Smitha Dharan}, Head, Department of Computer
+Engineering, for providing constant support and encouragement.
+\paragraph{}
+Now I extend my sincere thanks to my seminar co-ordinators \textbf{Mrs. Shiny B}, Assistant
+Professor in Computer Engineering for guiding me in my work and providing timely
+advices and valuable suggestions.
+\paragraph{}
+Last but not the least, I extend my heartfelt gratitude to my parents and friends for
+their support and assistance.	
+\pagenumbering{gobble}
+
+\newpage
+\begin{center}
+\large{\textbf{ABSTRACT}}
+\end{center}
+\vspace{4ex}
+\paragraph{}
+
+
+
+\setlength{\baselineskip}{1.0\baselineskip}
+
+% Table of content Page
+\setlength{\baselineskip}{1.0\baselineskip}
+\newpage
+\begin{center}
+\tableofcontents
+\end{center}
+
+% List of Figures Page
+\newpage
+\thispagestyle{plain}
+\begin{center}
+\listoffigures
+\end{center}
+
+% List of Tables Page
+\newpage
+\thispagestyle{plain}
+\begin{center}
+\listoftables
+\end{center}
+
+\newpage
+\rfoot{\thepage}
+\lhead{\textit{Generating Usability Reports from User Inputs and Eye Movements}}
+\lfoot{\textit{College of Engineering Chengannur}}
+\rfoot{\thepage}
+\renewcommand{\headrulewidth}{0.0pt}
+\renewcommand{\footrulewidth}{0.0pt}
+\renewcommand{\headrulewidth}{0.0pt}
+\renewcommand{\footrulewidth}{0.0pt}
+\section{INTRODUCTION}
+\pagenumbering{arabic}
+\paragraph{}
+
+
+\newpage
+\section{PROBLEM FORMULATION}
+\paragraph{}
+
+\newpage
+\section{LITERATURE SURVEY}
+\subsection{Eye-Tracking}
+    \begin{itemize} 
+        \item PACE
+        \item TurkerGaze
+        \item WebGazer
+    \end{itemize}
+
+\subsection{Usability Testing}
+
+\newpage
+\section{RELATED WORKS}
+\subsection{Tobii}
+\paragraph{}
+Web-based Usability testing tool for quick and easy user testing of web-sites or digital products. Live viewing of where the user is looking and generates a timeline view of eye tracked.
+
+\subsection{Nielsen Norman Research Study}
+\paragraph{}
+The Nielsen Norman Group is an American computer user  interface and user experience consulting firm.
+\subsection{usertesting.com}
+
+\newpage
+\section{PROPOSED SYSTEM}
+\paragraph{}
+
+
+\newpage
+\section{SYSTEM DESIGN}
+
+
+
+
+\newpage
+\section{CONCLUSION}
+\paragraph{}
+
+
+\newpage
+% \cleardoublepage
+% \addcontentsline{toc}{section}{\textbf{References}}
+% \addcontentsline{}{section}{\textbf{References}}
+
+\section{REFERENCES}
+\begin{thebibliography}{9}
+
+
+
+\end{thebibliography}
+\end{document}
