@@ -206,12 +206,21 @@ The proposed system uses eye detection to locate the positions on the screen whe
 \newpage
 \section{LITERATURE SURVEY}
 \subsection{Eye-Tracking}
-    \begin{itemize} 
-        \item \textbf{PACE}, a Personalized, Automatically Calibrating Eye-tracking system that identifies and collects data unobtrusively from user interaction events on standard computing systems without the need for specialized equipment. PACE relies on eye/facial analysis of webcam data based on a set of robust geometric gaze features and a two-layer data validation mechanism to identify good training samples from daily interaction data. The design of the system is founded on an in-depth investigation of the relationship between gaze patterns and interaction cues, and takes into consideration user preferences and habits. The result is an adaptive, data-driven approach that continuously recalibrates, adapts and improves with additional use. Quantitative evaluation on 31 subjects across different interaction behaviors shows that training instances identified by the PACE data collection have higher gaze point-interaction cue consistency than those identified by conventional approaches. An in-situ study using real-life tasks on a diverse set of interactive applications demonstrates that the PACE gaze estimation achieves an average error of 2.56º , which is comparable to state-of-the-art, but without the need for explicit training or calibration.
-        \item \textbf{TurkerGaze}, 
-        Traditional eye tracking requires specialized hardware, which means collecting gaze data from many observers is expensive, tedious and slow. Therefore, existing saliency prediction datasets are order-of-magnitudes smaller than typical datasets for other vision recognition tasks. The small size of these datasets limits the potential for training data intensive algorithms, and causes overfitting in benchmark evaluation. To address this deficiency, this paper introduces a webcam-based gaze tracking system that supports large-scale, crowdsourced eye tracking deployed on Amazon Mechanical Turk (AMTurk). By a combination of careful algorithm and gaming protocol design, our system obtains eye tracking data for saliency prediction comparable to data gathered in a traditional lab setting, with relatively lower cost and less effort on the part of the researchers. Using this tool, we build a saliency dataset for a large number of natural images. We will open-source our tool and provide a web server where researchers can upload their images to get eye tracking results from AMTurk.
-        \item WebGazer
-    \end{itemize}
+    
+       \subsubsection{TurkerGaze}
+       Turkergaze introduces a webcam-based gaze tracking system that supports large-scale, crowdsourced eye tracking deployed on Amazon Mechanical Turk. By a combination of careful algorithm and gaming protocol design, our system obtains eye tracking data for saliency prediction comparable to data gathered in a traditional lab setting, with relatively lower cost and less effort on the part of the researchers.
+       The main disadvantage with TurkerGaze is that the calibration time is quite high and comes with limited browser support.
+      
+
+\subsubsection{XLabsGaze}
+xLabsGaze is a webcam based eye tracking technology that comes with it's own pros and cons. It offers realtime tracking without restricting user movement. Once thoroughly calibrated, it just works all the time, allowing users to get up and sit down as much as they like. The main downside to XLabsGaze is that it requires the web developer to send the video feed to their server for eye tracking which can be slow and also pose privacy concerns. They also offer a C++ SDK and chrome plugin but that doesn't provide the web accessibility that we need.
+
+\subsubsection{WebGazer.js}
+     WebGazer.js is also an eye tracking library that uses common webcams to infer the eye-gaze locations of web visitors on a page in real time. The eye tracking model it contains self-calibrates by watching web visitors interact with the web page and trains a mapping between the features of the eye and positions on the screen.
+
+\subsubsection{PACE}
+
+    PACE, a Personalized, Automatically Calibrating Eye-tracking system that identifies and collects data unobtrusively from user interaction events on standard computing systems without the need for specialized equipment. PACE relies on eye/facial analysis of webcam data based on a set of robust geometric gaze features and a two-layer data validation mechanism to identify good training samples from daily interaction data. The design of the system is founded on an in-depth investigation of the relationship between gaze patterns and interaction cues, and takes into consideration user preferences and habits. The result is an adaptive, data-driven approach that continuously recalibrates, adapts and improves with additional use. Quantitative evaluation on 31 subjects across different interaction behaviors shows that training instances identified by the PACE data collection have higher gaze point-interaction cue consistency than those identified by conventional approaches. An in-situ study using real-life tasks on a diverse set of interactive applications demonstrates that the PACE gaze estimation achieves an average error of 2.56º , which is comparable to state-of-the-art, but without the need for explicit training or calibration.
 
 \subsection{Usability Testing}
 
@@ -232,6 +241,13 @@ The Nielsen Norman Group is an American computer user  interface and user experi
 In this proposed system, a user can submit a URL of the website to be analyzed. The system then generates a unique URL for this experiment which can be manually shared to different users.
 Testers can access this URL and interact with the website normally while we collect the tester's eye coordinates that we obtained through webgazer.js. Basic demographic of the tester such as age and gender are also collected for categorization and report generation. The collected data is then stored in the server. 
 The testing details can be reviewed from the admin's dashboard. Several features such as timeline, demographic filtering, heatmap, etc, are provided for easily analyzing the data.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth]{DFD.png}
+    \caption{Simplified Data Flow Diagram}
+    \label{fig:dfd}
+    \label{}
+\end{figure}
 
 
 \newpage
@@ -243,6 +259,7 @@ The testing details can be reviewed from the admin's dashboard. Several features
 \newpage
 \section{CONCLUSION}
 \paragraph{}
+Seeing where people look while using your Web site, Web application, or software product sounds like an opportunity to get amazing insights into their user experience. But current eyetracking based UX studies are expensive and requires extra effort and specialized knowledge. This prevents startups and small companies to gather hidden UX insights of their product. Our webcam based eye tracking combined with other user inputs will generate UX reports that can be understood by every UX researcher.
 
 
 \newpage
@@ -250,7 +267,7 @@ The testing details can be reviewed from the admin's dashboard. Several features
 % \addcontentsline{toc}{section}{\textbf{References}}
 % \addcontentsline{}{section}{\textbf{References}}
 
-s\section{REFERENCES}
+\section{REFERENCES}
 \begin{thebibliography}{9}
     \bibitem{d}
     Papoutsaki, Alexandra \& Sangkloy, Patsorn \& Laskey, James \& Daskalova, Nediyana \& Huang, Jeff \& Hays, James. (2016). \emph{WebGazer: Scalable Webcam Eye Tracking Using User Interactions.}
