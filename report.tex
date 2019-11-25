@@ -135,7 +135,7 @@ is a bonafide record of the work done by him.
 I am greatly indebted to \textbf{God Almighty} for being the guiding light throughout with his
 abundant grace and blessings that strengthened me to do this endeavour with confidence.
 \paragraph{}
-I express my heartfelt gratitude towards \textbf{Dr. Jacob Thomas V.}, Principal, College
+I express my heartfelt gratitude towards \textbf{Dr. Jacob Thomas V}, Principal, College
 of Engineering Chengannur for extending all the facilities required for doing my seminar.
 I would also like to thank \textbf{Dr. Smitha Dharan}, Head, Department of Computer
 Engineering, for providing constant support and encouragement.
@@ -178,13 +178,6 @@ The proposed system uses eye detection to locate the positions on the screen whe
 \listoffigures
 \end{center}
 
-% List of Tables Page
-\newpage
-\thispagestyle{plain}
-\begin{center}
-\listoftables
-\end{center}
-
 \newpage
 \rfoot{\thepage}
 \lhead{\textit{Generating Usability Reports from User Inputs and Eye Movements}}
@@ -194,14 +187,34 @@ The proposed system uses eye detection to locate the positions on the screen whe
 \renewcommand{\footrulewidth}{0.0pt}
 \renewcommand{\headrulewidth}{0.0pt}
 \renewcommand{\footrulewidth}{0.0pt}
-\section{INTRODUCTION}
 \pagenumbering{arabic}
+\section{INTRODUCTION}
 \paragraph{}
-
+Usability Testing is defined as a type of software testing where, a small set of target end-users, of a software system, "use" it to expose usability defects. This testing mainly focuses on the user's ease to use the application, flexibility in handling controls and the ability of the system to meet its objectives. It is also called User Experience(UX) Testing.
+\paragraph{}
+Eye tracking provides compelling objective data that reveals the human behaviour behind the interaction with interfaces or products and uncovers optimization potential. User Experience (UX) and Human-Computer Interaction (HCI) researchers have been recognizing the unique value of eye tracking for a long time and it is now more than ever available to be easily integrated in innovation processes.
+\paragraph{}
+Traditional usability methods and performance measurements might indicate that there's an efficiency issue, but often do not answer why or how to fix it. Eye tracking uniquely provides information about tasks that aren't articulated by participants and that might otherwise pass unobserved by the researcher. It captures natural, unbiased user behavior and produces objective data to allow effective recommendations to be made.
+Eye tracking is a flexible technique that works with a variety of research methods, including observations, interviews, and retrospective think aloud (RTA).
+\paragraph{}
+Our approach combines eye tracking with several other data points such as cursor movements, mouse clicks, hover duration and more to score the UI elements present in the screen to generate an interactive report.
 
 \newpage
 \section{PROBLEM FORMULATION}
 \paragraph{}
+Usability testing is crucial in a software development life cycle as it provides more insights on how a user uses the product. Typically, a UX researcher summons the tester to his/her office and has to manually observe and analyze the user to validate the designs. But this traditional usability testing approach takes huge amount of time, money and workforce. This in turn increases the software development time which causes late delivery of the product. 
+Different usability testing metrics that UX designers uses are: 
+\begin{itemize}
+\item Focus points of the users on the screen
+\item Time taken by the user to find the target action/data he/she was looking for
+\item Session duration
+\end{itemize}
+\paragraph{•}
+To find the focus points, the UX researcher asks the tester to move a pointer across the screen which is prone to errors. The other metrics are also manually recorded which are prone to errors. To overcome this we propose a novel method to automate usability testing that accounts various other metrics including eye tracking.
+
+
+
+
 
 \newpage
 \section{LITERATURE SURVEY}
@@ -218,22 +231,23 @@ xLabsGaze is a webcam based eye tracking technology that comes with it's own pro
 \subsubsection{WebGazer.js}
      WebGazer.js is also an eye tracking library that uses common webcams to infer the eye-gaze locations of web visitors on a page in real time. The eye tracking model it contains self-calibrates by watching web visitors interact with the web page and trains a mapping between the features of the eye and positions on the screen.
 
-\subsubsection{PACE}
 
-    PACE, a Personalized, Automatically Calibrating Eye-tracking system that identifies and collects data unobtrusively from user interaction events on standard computing systems without the need for specialized equipment. PACE relies on eye/facial analysis of webcam data based on a set of robust geometric gaze features and a two-layer data validation mechanism to identify good training samples from daily interaction data. The design of the system is founded on an in-depth investigation of the relationship between gaze patterns and interaction cues, and takes into consideration user preferences and habits. The result is an adaptive, data-driven approach that continuously recalibrates, adapts and improves with additional use. Quantitative evaluation on 31 subjects across different interaction behaviors shows that training instances identified by the PACE data collection have higher gaze point-interaction cue consistency than those identified by conventional approaches. An in-situ study using real-life tasks on a diverse set of interactive applications demonstrates that the PACE gaze estimation achieves an average error of 2.56º , which is comparable to state-of-the-art, but without the need for explicit training or calibration.
 
 \subsection{Usability Testing}
-
-\newpage
-\section{RELATED WORKS}
-\subsection{Tobii}
+\subsubsection{Eye Tracking in User Experience Testing: How to Make the Most of It}
 \paragraph{}
-Web-based Usability testing tool for quick and easy user testing of web-sites or digital products. Live viewing of where the user is looking and generates a timeline view of eye tracked.
+As eye tracking technology becomes more precise, affordable, and unobtrusive, its popularity continues to increase among usability practitioners. This paper introduces eye tracking as a user experience testing tool. It focuses on how to design and conduct studies involving eye tracking, so that eye movement data can effectively supplement data obtained through more conventional methods. Using examples from actual studies, It lessons learned and provide advice on how to avoid common mistakes.
 
-\subsection{Nielsen Norman Research Study}
-\paragraph{}
-The Nielsen Norman Group is an American computer user  interface and user experience consulting firm.
-\subsection{usertesting.com}
+%\newpage
+%\section{RELATED WORKS}
+%\subsection{Tobii}
+%\paragraph{}
+%Web-based Usability testing tool for quick and easy user testing of web-sites or digital products. Live viewing of where the user is looking and generates a timeline view of eye tracked.
+%
+%\subsection{Nielsen Norman Research Study}
+%\paragraph{}
+%The Nielsen Norman Group is an American computer user  interface and user experience consulting firm.
+%\subsection{usertesting.com}
 
 \newpage
 \section{PROPOSED SYSTEM}
@@ -249,14 +263,11 @@ The testing details can be reviewed from the admin's dashboard. Several features
     \label{}
 \end{figure}
 
-
-\newpage
-\section{SYSTEM DESIGN}
-
 \newpage
 \section{CONCLUSION}
 \paragraph{}
-Seeing where people look while using your Web site, Web application, or software product sounds like an opportunity to get amazing insights into their user experience. But current eyetracking based UX studies are expensive and requires extra effort and specialized knowledge. This prevents startups and small companies to gather hidden UX insights of their product. Our webcam based eye tracking combined with other user inputs will generate UX reports that can be understood by every UX researcher.
+\noindent
+At present, existing Usability-Testing methods for web based platforms are quite expensive and requires a considerable amount of resources including man-power and time. Thus to overcome these challenges, the proposed system uses eye-tracking, cursor-movement and mouse-clicks to evaluate the positions on the screen where the user pays more attention and a score for each UI element is assigned from the resulting heat-map. This testing is done for different age groups a final analysis report is generated. The UX team in turn can use this report to identify what they have done right & wrong and hence improve their design.
 
 
 \newpage
@@ -269,10 +280,6 @@ Seeing where people look while using your Web site, Web application, or software
     \bibitem{d}
     Papoutsaki, Alexandra \& Sangkloy, Patsorn \& Laskey, James \& Daskalova, Nediyana \& Huang, Jeff \& Hays, James. (2016). \emph{WebGazer: Scalable Webcam Eye Tracking Using User Interactions.}
 
-    \bibitem{d}
-    Eyetribe.com
-    \bibitem{d}
-    Sticky by Tobii Pro
     \bibitem{d}
     Kiril Alexiev, Teodor Toshkov and Peter Dojnow. 2019. Accuracy and Precision of eye tracker by head movement compensation and calibration. \emph{20th International Conference on Computer Systems and Technologies
 (CompSysTech'19)}, Jun 21-22, 2019, Ruse, Bulgaria, 8 pages.

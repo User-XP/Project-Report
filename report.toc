@@ -5,24 +5,22 @@
 \contentsline {paragraph}{}{}% 
 \contentsline {section}{\numberline {1}INTRODUCTION}{1}% 
 \contentsline {paragraph}{}{1}% 
+\contentsline {paragraph}{}{1}% 
+\contentsline {paragraph}{}{1}% 
+\contentsline {paragraph}{}{1}% 
 \contentsline {section}{\numberline {2}PROBLEM FORMULATION}{2}% 
 \contentsline {paragraph}{}{2}% 
+\contentsline {paragraph}{\IeC {\textbullet }}{2}% 
 \contentsline {section}{\numberline {3}LITERATURE SURVEY}{3}% 
 \contentsline {subsection}{\numberline {3.1}Eye-Tracking}{3}% 
 \contentsline {subsubsection}{\numberline {3.1.1}TurkerGaze}{3}% 
 \contentsline {subsubsection}{\numberline {3.1.2}XLabsGaze}{3}% 
 \contentsline {subsubsection}{\numberline {3.1.3}WebGazer.js}{3}% 
-\contentsline {subsubsection}{\numberline {3.1.4}PACE}{3}% 
-\contentsline {subsection}{\numberline {3.2}Usability Testing}{4}% 
-\contentsline {section}{\numberline {4}RELATED WORKS}{5}% 
-\contentsline {subsection}{\numberline {4.1}Tobii}{5}% 
+\contentsline {subsection}{\numberline {3.2}Usability Testing}{3}% 
+\contentsline {subsubsection}{\numberline {3.2.1}Eye Tracking in User Experience Testing: How to Make the Most of It}{3}% 
+\contentsline {paragraph}{}{3}% 
+\contentsline {section}{\numberline {4}PROPOSED SYSTEM}{4}% 
+\contentsline {paragraph}{}{4}% 
+\contentsline {section}{\numberline {5}CONCLUSION}{5}% 
 \contentsline {paragraph}{}{5}% 
-\contentsline {subsection}{\numberline {4.2}Nielsen Norman Research Study}{5}% 
-\contentsline {paragraph}{}{5}% 
-\contentsline {subsection}{\numberline {4.3}usertesting.com}{5}% 
-\contentsline {section}{\numberline {5}PROPOSED SYSTEM}{6}% 
-\contentsline {paragraph}{}{6}% 
-\contentsline {section}{\numberline {6}SYSTEM DESIGN}{7}% 
-\contentsline {section}{\numberline {7}CONCLUSION}{8}% 
-\contentsline {paragraph}{}{8}% 
-\contentsline {section}{\numberline {8}REFERENCES}{9}% 
+\contentsline {section}{\numberline {6}REFERENCES}{6}% 
