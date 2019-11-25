@@ -1,0 +1,325 @@
+\documentclass[12pt,a4paper,final]{extreport}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{bm}
+\usepackage{amsfonts}
+\usepackage{fancyhdr}
+% \usepackage[algo2e]{algorithm2e} 
+%\usepackage{algorithm2e}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{placeins}
+%\usepackage[colorlinks]{hyperref}
+\usepackage{graphicx}
+\usepackage[left=2.5cm,right=2.5cm,top=2cm,bottom=2cm]{geometry}
+\linespread{1.2}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage[yyyymmdd]{datetime}
+%\usepackage{algorithm}
+
+\usepackage{times}
+\renewcommand{\bibname}{REFERENCES}
+
+%\renewcommand{\contentsname}{\begin{center}{\large CONTENTS}\end{center}\\\begin{tabbing}\hspace{15cm}\=\kill{\small Contents} \> {\small Page No.}\end{tabbing}}
+%\usepackage{blindtext}
+
+
+%\renewcommand{\listfigurename}{\begin{center}{\large LIST OF FIGURES}\end{center}\\\begin{tabbing}
+%\hspace{5cm}\=\hspace{10cm}\=\kill
+%{\hspace{.6cm}\small  No.}\> {\small Title }\> {\small Page No.}
+%\end{tabbing} }
+ 
+%\renewcommand{\listtablename}{\begin{center}{\large LIST OF TABLES}\end{center}\\\begin{tabbing}
+%\hspace{5cm}\=\hspace{10cm}\=\kill
+%{\hspace{.6cm}\small  No.}\> {\small Title }\> {\small Page No.}
+%\end{tabbing} }
+
+\usepackage{enumerate}
+\usepackage{etoolbox}
+\patchcmd{\chapter}{plain}{empty}{}{}
+
+\usepackage{tocloft,calc}
+\renewcommand{\cftchappresnum}{\chaptername\space}
+\setlength{\cftchapnumwidth}{\widthof{\textbf{Appendix~999~}}}
+\makeatletter
+\g@addto@macro\appendix{%
+  \addtocontents{toc}{%
+    \protect\renewcommand{\protect\cftchappresnum}{\appendixname\space}%
+  }%
+}
+\makeatother
+
+\titleformat{\chapter}[display]
+{\normalfont\rmfamily\large\bfseries}
+{\chaptertitlename\ \thechapter \centering }{16pt}{\centering \huge\uppercase}
+\renewcommand{\chaptername}{CHAPTER}{\Large}
+\titleformat{\section}
+{\normalfont\rmfamily\normalsize\bfseries}
+{\thesection}{14pt}{\large}
+
+ \titleformat{\subsection}
+{\normalfont\rmfamily\small\bfseries}
+{\thesubsection}{12pt}{\normalsize} 
+
+ \titleformat{\subsubsection}
+{\normalfont\rmfamily\small\bfseries}
+{\thesubsection}{12pt}{\normalsize} 
+
+\titlespacing{\chapter}{0pc}{0pc}{0.5pc}
+\titlespacing{\section}{0pc}{.5pc}{0pc}
+\titlespacing{\subsection}{0pc}{1pc}{0pc}
+\thispagestyle{empty}
+
+
+\author{\textbf{Ganesh Sekhar (CHN16CS055)}\\
+	\textbf{Sachin Sajan Punnoose (CHN16CS092)} \\[0.1mm]
+	\textbf{Shan Eapen Koshy (CHN15CS095)} \\[0.1mm]
+	\textbf{S Hemanth (CHN16CS098)} \\[0.1mm]
+	\textbf{to}\\
+ }
+\title{{\Large\textbf{Generating Usability Reports from User Inputs and Eye Movements}} \\
+\vspace{1.2cm}	{\large\textbf{A PROJECT REPORT}}\\[0.2cm]
+	{\small submitted by}
+		}
+\date{\begin{center}
+\begin{small}
+The APJ Abdul Kalam Technological University\\
+in partial fulfillment of the requirements for the award of the Degree\\[0.2cm]
+of\\[0.2cm]
+Bachelor of Technology\\[0.2cm]
+In\\[0.2cm]
+\textit{Computer Science and Engineering}\\\end{small}
+\begin{figure}[h]	
+\begin{center}
+\includegraphics[width=4cm]{ceclogo.png} \\[.1cm]
+\end{center}
+\end{figure}
+	\textbf{ Department of Computer Science and Engineering} \\
+	 College of Engineering, Chengannur, Kerala -689121\\	
+	May 2019\end{center}
+}	
+
+\begin{document}
+\pagenumbering{gobble}
+\clearpage\maketitle
+
+\section*{\begin{center} \fontsize{14}{17} \selectfont \textbf{DECLARATION}\end{center}}
+\begin{quote}
+
+We undersigned hereby declare that the project report "Transfer of either using daicoin (CryptoShaw) ", submitted for partial fulfillment of the requirements for the award of degree of Bachelor of Technology of the APJ Abdul Kalam Technological University, Kerala is a bonafide work done by us under supervision of Ms.Arathy U.P, Assistant Professor. This submission represents our ideas in our own words and where ideas or words of others have been included, We have adequately and accurately cited and referenced the original sources. We also declare that we have adhered to ethics of academic honesty and integrity and have not misrepresented or fabricated any data or idea or fact or source in my submission. We understand that any violation of the above will be a cause for disciplinary action by the institute and/or the University and can also evoke penal action from the sources which have thus not been properly cited or from whom proper permission has not been obtained. This report has not been previously formed the basis for the award of any degree, diploma or similar title of any other University.
+
+\begin{tabbing}
+\hspace{8.8cm}\=\kill
+Place: CHENGANNUR  \> Ganesh Sekhar \\  Date:\today  \>Sachin Sajan Punnoose \\ \hspace{8.8cm} Shan Eapen Koshy \\ \hspace{8.8Cm} S Hemanth
+
+\end{tabbing} 
+\end{quote}
+\newpage
+\clearpage
+\thispagestyle{empty}
+
+\begin{center}\fontsize{14}{17} \selectfont \textbf{DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING}\end{center}
+\begin{center}\fontsize{14}{17} \selectfont \textbf{COLLEGE OF ENGINEERING,CHENGANNUR}\end{center}
+%\begin{center}\fontsize{14}{17} \selectfont \textbf{PALAKKAD}\end{center}
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=4cm]{ceclogo.png}
+		\vspace{.1 cm}
+	\end{center}
+\end{figure}
+
+\begin{center}\fontsize{14}{17} \selectfont \textbf{CERTIFICATE}\end{center}
+This is to certify that the report entitled \textbf{{\large "Generating Usability Reports from User Inputs and Eye Movements"}} submitted by \textbf{Ganesh Sekhar}, \textbf{Sachin Sajan Punnoose}, \textbf{Shan Eapen Koshy}, \textbf{S Hemanth} to the APJ Abdul Kalam Technological University in partial fulfillment of the requirements for the award of the Degree of Bachelor of Technology in Department of Computer Science and Engineering, College of Engineering, Chengannur, Kerala -689121 is a bonafide record of the project work carried out by them under my/our guidance and supervision. This report in any form has not been submitted to any other University or Institute for any purpose.
+%\vspace{2cm}
+%\begin{tabbing}
+%\hspace{12 cm}\=\kill
+%Guide \hspace{4.5 cm} Staff-in-Charge \> PG Coordinator\&\\
+%\> Head of Department  
+
+
+%\end{tabbing}
+\vspace{2cm}
+\vspace{2cm}
+\begin{flushleft}
+	\hspace{0.1cm}\textbf{Ms. Shyma S Nair} \hspace{9.9cm}\textbf{Ms.Shiny B }\\
+	\hspace{0.1cm}Assistant Professor \hspace{9.08cm}Assistant Professor\\
+	\hspace{0.1cm}Project Supervisor \hspace{9.08cm}Project Co-ordinator
+	
+\end{flushleft}
+\vspace{0.5cm}
+\begin{center}
+	\textbf{Dr. Smitha Dharan}\\Professor and Head
+	
+\end{center}
+
+%\thispagestyle{empty}
+
+
+\newpage
+\pagenumbering{roman}
+\addcontentsline{toc}{chapter}{ACKNOWLEDGEMENT}
+\section*{\begin{center} \fontsize{14}{17} \selectfont \textbf{ACKNOWLEDGEMENT}\end{center}}
+
+
+%\vspace{.4 cm }
+\begin{quote}
+{
+First and foremost we wish to express our wholehearted indebtedness to God Almighty for his gracious constant care and blessings showered over us for the successful completion of this project.\par
+	\hspace{01 cm}We are deeply indebted to \textbf{Dr. Jacob Thomas V}, Principal, College of Engineering, Chengannur and Associate Professor \textbf{Dr. Smitha Dharan}, Head of the Department of Computer Science and Engineering, College of Engineering, Chengannur, for providing and availing all the required facilities for undertaking the project in a systematic way.\par
+	\hspace{01 cm}We would like to express my deep gratitude to our staff-in-charge \textbf{Ms. Shyma S Nair}, Assistant Professor, for the incite and encouragement given by her to improve the project. We are thankful to our guide \textbf{Ms.Shiny B}, Assistant Professor for providing good suggestions and valuable advices to improve the project.\par
+	\hspace{01 cm}Gratitude is extended to all teaching and non teaching staffs of Department of Computer Science and Engineering, College of Engineering, Chengannur, for the sincere directions imparted and the cooperation in connection with the project.\par
+	\hspace{01 cm}We are also thankful to our parents for the support given in connection with the project. Gratitude may be extended to all well-wishers and friends who supported us.
+	\begin{flushright}
+Ganesh Sekhar\\
+Sachin Sajan Punnoose\\
+Shan Eapen Koshy\\
+S Hemanth
+\end{flushright}
+}
+\end{quote}
+
+
+\newpage
+\section*{\begin{center} \fontsize{14}{17} \selectfont \textbf{ABSTRACT}\end{center}}
+
+\addcontentsline{toc}{chapter}{ABSTRACT}
+\begin{quote}
+	Usability testing is a technique used to evaluate a product by testing it on users. It is an
+	important factor in marketing a product since it gives a complete structure of how the users use
+	the product.
+	After understanding how real users interact with your product, you can improve the product
+	based on the results. The primary purpose of a usability test is to improve it’s designed so as to
+	make it more user-friendly.
+	The proposed system uses eye detection to locate the positions on the screen where the user
+	pays more attention and a heat map is generated from it. This testing is done for different age
+	groups and a final report listing all the findings (positives and negatives) is generated. Positive
+	findings will help the team to know that they’re on the right track and the negative findings
+	provide proposals to solve them
+
+
+\end{quote}
+
+\newpage
+\tableofcontents
+\addtocontents{toc}{\small}
+
+%\tableofcontents % compile 2 times to get table of contents written
+%\addtocontents{toc}{\small}
+
+%\newpage
+%\listoftables
+%\addtocontents{toc}{\small}
+%\addcontentsline{toc}{chapter}{LIST OF TABLES}
+
+\newpage
+\listoffigures 
+\addtocontents{toc}{\small}
+\addcontentsline{toc}{chapter}{LIST OF FIGURES}
+
+\clearpage
+\pagenumbering{arabic}
+%\pagestyle{fancy}
+\lhead{Generating Usability Reports from User Inputs and Eye Movements}
+\chead{}
+\rhead{}
+\lfoot{\textit{College of Engineering,Chengannur}}
+\cfoot{}
+\rfoot{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\pagestyle{fancy}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{INTRODUCTION}
+\noindent
+
+
+
+\newpage
+\chapter{PROBLEM FORMULATION}
+\paragraph{}
+
+
+
+\newpage
+\chapter{LITERATURE REVIEW}
+\section{Eye-Tracking}
+\subsection{TurkerGaze}
+\paragraph{}
+Turkergaze introduces a webcam-based gaze tracking system that supports large-scale, crowdsourced eye tracking deployed on Amazon Mechanical Turk. By a combination of careful
+algorithm and gaming protocol design, our system obtains eye tracking data for saliency prediction comparable to data gathered in a traditional lab setting, with relatively lower cost and
+less effort on the part of the researchers. The main disadvantage with TurkerGaze is that the
+calibration time is quite high and comes with limited browser support
+\subsection{ XLabsGaze}
+\paragraph{}
+xLabsGaze is a webcam based eye tracking technology that comes with it’s own pros and cons.
+It offers realtime tracking without restricting user movement. Once thoroughly calibrated, it
+just works all the time, allowing users to get up and sit down as much as they like. The main
+downside to XLabsGaze is that it requires the web developer to send the video feed to their
+server for eye tracking which can be slow and also pose privacy concerns. They also offer a
+C++ SDK and chrome plugin but that doesn’t provide the web accessibility that we need
+\subsection{WebGazer.js}
+\paragraph{}
+WebGazer.js is also an eye tracking library that uses common webcams to infer the eye-gaze
+locations of web visitors on a page in real time. The eye tracking model it contains selfcalibrates by watching web visitors interact with the web page and trains a mapping between
+the features of the eye and positions on the screen.
+
+\newpage
+\section{Usability Testing}
+\paragraph{}
+
+\newpage
+\chapter{ PROPOSED SYSTEM}
+\paragraph{}
+In this proposed system, a user can submit a URL of the website to be analyzed. The system
+then generates a unique URL for this experiment which can be manually shared to different
+users. Testers can access this URL and interact with the website normally while we collect
+the tester’s eye coordinates that we obtained through webgazer.js. Basic demographic of the
+tester such as age and gender are also collected for categorization and report generation. The
+collected data is then stored in the server. The testing details can be reviewed from the admin’s
+dashboard. Several features such as timeline, demographic filtering, heatmap, etc, are provided
+for easily analyzing the data.
+
+\begin{figure}[H]
+\centering
+\includegraphics[height=10cm,width=15cm]{DFD.png}
+\counterwithin{figure}{section}
+\caption{Data Flow Diagram}
+%\counterwithout{figure}{chapter}
+\end{figure}
+
+
+
+\newpage
+\chapter{SYSTEM DESIGN}
+
+\newpage
+\chapter{CONCLUSION }
+\paragraph{}
+Seeing where people look while using your Web site, Web application, or software product
+sounds like an opportunity to get amazing insights into their user experience. But current eyetracking based UX studies are expensive and requires extra effort and specialized knowledge.
+This prevents startups and small companies to gather hidden UX insights of their product. Our
+webcam based eye tracking combined with other user inputs will generate UX reports that can
+be understood by every UX researcher
+\newpage
+\addcontentsline{toc}{chapter}{REFERENCES}
+\begin{thebibliography}{}
+	\bibitem{d}
+    Papoutsaki, Alexandra \& Sangkloy, Patsorn \& Laskey, James \& Daskalova, Nediyana \& Huang, Jeff \& Hays, James. (2016). \emph{WebGazer: Scalable Webcam Eye Tracking Using User Interactions.}
+
+    \bibitem{d}
+    Eyetribe.com
+    \bibitem{d}
+    Sticky by Tobii Pro
+    \bibitem{d}
+    Kiril Alexiev, Teodor Toshkov and Peter Dojnow. 2019. Accuracy and Precision of eye tracker by head movement compensation and calibration. \emph{20th International Conference on Computer Systems and Technologies
+(CompSysTech'19)}, Jun 21-22, 2019, Ruse, Bulgaria, 8 pages.
+https://doi.org/10.1145/3345252.3345278.
+
+
+\end{thebibliography}
+\end{document}
+
