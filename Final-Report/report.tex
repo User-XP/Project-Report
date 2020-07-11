@@ -1,0 +1,326 @@
+\documentclass[a4paper,12pt,oneside]{article}
+\usepackage{amsmath}
+\usepackage{mathtools}
+% \usepackage{caption}
+\usepackage[labelformat=empty]{caption}
+\usepackage{mathptmx}
+\usepackage{fixltx2e}
+\usepackage{graphicx}
+\usepackage[margin=1.0in]{geometry}
+\usepackage{float}
+\let\counterwithout\relax
+\let\counterwithin\relax
+\usepackage{setspace}
+\usepackage{chngcntr}
+\usepackage{fancyhdr}
+\usepackage{etoolbox}
+\patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{\thepage}
+%\renewcommand{\headrulewidth}{0.0pt}
+%\renewcommand{\footrulewidth}{0.0pt}
+
+
+\begin{document}
+\thispagestyle{empty}
+%\pagenumbering{gobble}
+\begin{center}
+
+\large{\textbf{{Generating Usability Reports from User Inputs and Eye Movements}}}
+\setlength{\baselineskip}{1.5\baselineskip}
+\\
+\vspace{5mm}
+\textbf{PROJECT REPORT}
+
+Submitted in the partial fulfilment of the award of the degree
+of
+\\
+\textbf{Bachelor of Technology}
+\\
+in
+\\
+\textbf{Computer Science \& Engineering}
+\\
+of
+\\
+\textbf{APJ Abdul Kalam Technological University}
+\\
+by
+\\
+\textbf{Ganesh Sekhar}
+\\
+\vspace*{-5mm}
+{\normalsize\textit{CHN16CS}}
+\\
+\textbf{Sachin Sajan Punnoose}
+\\
+\vspace*{-5mm}
+{\normalsize\textit{CHN16CS}}
+\\
+\textbf{Shan Eapen Koshy}
+\\
+\vspace*{-5mm}
+{\normalsize\textit{CHN16CS}}
+\\
+\textbf{S Hemanth}
+\\
+\vspace*{-5mm}
+{\normalsize\textit{CHN16CS098}}
+\\
+\vspace{5mm}
+\begin{figure}[H]
+\centering
+\includegraphics[width=4cm]{ceclogo.png}
+\end{figure}
+\textbf{July 2020}
+% \vspace{8mm}
+\\
+Department of Computer Engineering
+\\
+College of Engineering, Chengannur, Kerala -689121
+\\
+Phone: (0479) 2454125, 2451424; Fax: (0479) 2451424
+\\
+\end{center}
+
+\newpage
+\thispagestyle{empty}
+\begin{center}
+\setlength{\baselineskip}{1.5\baselineskip}
+{\large\textbf{COLLEGE OF ENGINEERING, CHENGANNUR}}
+\\
+{\large\textbf{KERALA}}
+\\
+\begin{figure}[H]
+\centering
+\includegraphics[width=4cm]{ceclogo.png}
+\end{figure}
+\setlength{\baselineskip}{1.5\baselineskip}
+\textbf{Department of Computer Engineering}
+\\
+\textbf{CERTIFICATE}
+\\
+This is to certify that the seminar entitled
+\\
+\textbf{Generating Usability Reports from User Inputs and Eye Movements}
+\\
+Submitted by
+\\
+\textbf{Ganesh Sekhar}
+\\
+\vspace*{-5mm}
+{\normalsize\textit{CHN16CS}}
+\\
+\textbf{Sachin Sajan Punnoose}
+\\
+\vspace*{-5mm}
+{\normalsize\textit{CHN16CS}}
+\\
+\textbf{Shan Eapen Koshy}
+\\
+\vspace*{-5mm}
+{\normalsize\textit{CHN16CS}}
+\\
+\textbf{S Hemanth}
+\\
+\vspace*{-5mm}
+{\normalsize\textit{CHN16CS098}}
+\\
+is a bonafide record of the work done by him.
+\end{center}
+\vspace{18ex}
+\hspace{5ex}
+% \textbf{Mrs.Shiny B}
+\hspace{15ex}
+% \textbf{Mrs.Shiny B}
+\hspace{16ex}
+% \textbf{Dr. Smitha Dharan}
+\\
+\vspace{0ex}
+\hspace{4ex}
+\textbf{Co-ordinator}
+\hspace{20ex}
+\textbf{Guide}
+\hspace{16ex}
+\textbf{Head of the Department} 
+\newpage
+\pagenumbering{roman}
+\renewcommand{\headrulewidth}{0.0pt}
+\renewcommand{\footrulewidth}{0.0pt}
+\begin{center}
+\large{\textbf{ACKNOWLEDGEMENT}}
+\end{center}
+\vspace{6ex}
+\setlength{\baselineskip}{1.5\baselineskip}
+\paragraph{}
+I am greatly indebted to \textbf{God Almighty} for being the guiding light throughout with his
+abundant grace and blessings that strengthened me to do this endeavour with confidence.
+\paragraph{}
+I express my heartfelt gratitude towards \textbf{Dr. Jacob Thomas V}, Principal, College
+of Engineering Chengannur for extending all the facilities required for doing my seminar.
+I would also like to thank \textbf{Dr. Smitha Dharan}, Head, Department of Computer
+Engineering, for providing constant support and encouragement.
+\paragraph{}
+Now I extend my sincere thanks to my seminar co-ordinators \textbf{Mrs. Shiny B}, Assistant
+Professor in Computer Engineering for guiding me in my work and providing timely
+advices and valuable suggestions.
+\paragraph{}
+Last but not the least, I extend my heartfelt gratitude to my parents and friends for
+their support and assistance.	
+\pagenumbering{gobble}
+
+\newpage
+\begin{center}
+\large{\textbf{ABSTRACT}}
+\end{center}
+\vspace{4ex}
+\paragraph{}
+Usability testing is a technique used to evaluate a product by testing it on users. It is an important factor in marketing a product since it gives a complete structure of how the users use the product.
+
+After understanding how real users interact with your product, you can improve the product based on the results. The primary purpose of a usability test is to improve it’s designed so as to make it more user-friendly.
+
+The proposed system uses eye detection to locate the positions on the screen where the user pays more attention and a heat map is generated from it. This testing is done for different age groups and a final report listing all the findings (positives and negatives) is generated. Positive findings will help the team to know that they’re on the right track and the negative findings provide proposals to solve them
+
+
+
+\setlength{\baselineskip}{1.0\baselineskip}
+
+% Table of content Page
+\setlength{\baselineskip}{1.0\baselineskip}
+\newpage
+\begin{center}
+\tableofcontents
+\end{center}
+
+% List of Figures Page
+\newpage
+\thispagestyle{plain}
+\begin{center}
+\listoffigures
+\end{center}
+
+\newpage
+\rfoot{\thepage}
+\lhead{\textit{Generating Usability Reports from User Inputs and Eye Movements}}
+\lfoot{\textit{College of Engineering Chengannur}}
+\rfoot{\thepage}
+\renewcommand{\headrulewidth}{0.0pt}
+\renewcommand{\footrulewidth}{0.0pt}
+\renewcommand{\headrulewidth}{0.0pt}
+\renewcommand{\footrulewidth}{0.0pt}
+\pagenumbering{arabic}
+\section{INTRODUCTION}
+\paragraph{}
+Usability Testing is defined as a type of software testing where, a small set of target end-users, of a software system, "use" it to expose usability defects. This testing mainly focuses on the user's ease to use the application, flexibility in handling controls and the ability of the system to meet its objectives. It is also called User Experience(UX) Testing.
+\paragraph{}
+Eye tracking provides compelling objective data that reveals the human behaviour behind the interaction with interfaces or products and uncovers optimization potential. User Experience (UX) and Human-Computer Interaction (HCI) researchers have been recognizing the unique value of eye tracking for a long time and it is now more than ever available to be easily integrated in innovation processes.
+\paragraph{}
+Traditional usability methods and performance measurements might indicate that there's an efficiency issue, but often do not answer why or how to fix it. Eye tracking uniquely provides information about tasks that aren't articulated by participants and that might otherwise pass unobserved by the researcher. It captures natural, unbiased user behavior and produces objective data to allow effective recommendations to be made.
+Eye tracking is a flexible technique that works with a variety of research methods, including observations, interviews, and retrospective think aloud (RTA).
+\paragraph{}
+Our approach combines eye tracking with several other data points such as cursor movements, mouse clicks, hover duration and more to score the UI elements present in the screen to generate an interactive report.
+
+\newpage
+\section{PROBLEM FORMULATION}
+\paragraph{}
+Usability testing is crucial in a software development life cycle as it provides more insights on how a user uses the product. Typically, a UX researcher summons the tester to his/her office and has to manually observe and analyze the user to validate the designs. But this traditional usability testing approach takes huge amount of time, money and workforce. This in turn increases the software development time which causes late delivery of the product. 
+Different usability testing metrics that UX designers uses are: 
+\begin{itemize}
+\item Focus points of the users on the screen
+\item Time taken by the user to find the target action/data he/she was looking for
+\item Session duration
+\end{itemize}
+\paragraph{}
+To find the focus points, the UX researcher asks the tester to move a pointer across the screen which is prone to errors. The other metrics are also manually recorded which are prone to errors. To overcome this we propose a novel method to automate usability testing that accounts various other metrics including eye tracking.
+
+\newpage
+\section{OUR OBJECTIVES}
+
+
+
+\newpage
+\section{LITERATURE SURVEY}
+\subsection{Eye-Tracking}
+    
+       \subsubsection{TurkerGaze}
+       Turkergaze introduces a webcam-based gaze tracking system that supports large-scale, crowdsourced eye tracking deployed on Amazon Mechanical Turk. By a combination of careful algorithm and gaming protocol design, our system obtains eye tracking data for saliency prediction comparable to data gathered in a traditional lab setting, with relatively lower cost and less effort on the part of the researchers.
+       The main disadvantage with TurkerGaze is that the calibration time is quite high and comes with limited browser support.
+      
+
+\subsubsection{XLabsGaze}
+xLabsGaze is a webcam based eye tracking technology that comes with it's own pros and cons. It offers realtime tracking without restricting user movement. Once thoroughly calibrated, it just works all the time, allowing users to get up and sit down as much as they like. The main downside to XLabsGaze is that it requires the web developer to send the video feed to their server for eye tracking which can be slow and also pose privacy concerns. They also offer a C++ SDK and chrome plugin but that doesn't provide the web accessibility that we need.
+
+\subsubsection{WebGazer.js}
+     WebGazer.js is also an eye tracking library that uses common webcams to infer the eye-gaze locations of web visitors on a page in real time. The eye tracking model it contains self-calibrates by watching web visitors interact with the web page and trains a mapping between the features of the eye and positions on the screen.
+
+
+
+\subsection{Usability Testing}
+\subsubsection{Eye Tracking in User Experience Testing: How to Make the Most of It}
+\paragraph{}
+As eye tracking technology becomes more precise, affordable, and unobtrusive, its popularity continues to increase among usability practitioners. This paper introduces eye tracking as a user experience testing tool. It focuses on how to design and conduct studies involving eye tracking, so that eye movement data can effectively supplement data obtained through more conventional methods. Using examples from actual studies, It lessons learned and provide advice on how to avoid common mistakes.
+
+%\newpage
+%\section{RELATED WORKS}
+%\subsection{Tobii}
+%\paragraph{}
+%Web-based Usability testing tool for quick and easy user testing of web-sites or digital products. Live viewing of where the user is looking and generates a timeline view of eye tracked.
+%
+%\subsection{Nielsen Norman Research Study}
+%\paragraph{}
+%The Nielsen Norman Group is an American computer user  interface and user experience consulting firm.
+%\subsection{usertesting.com}
+
+\newpage
+\section{PROPOSED SYSTEM}
+\paragraph{}
+In this proposed system, a user can submit a URL of the website to be analyzed. The system then generates a unique tracking code for this website which can be manually inserted into the website to be tested.
+Testers can access this URL and interact with the website normally while we collect the tester's eye coordinates that we obtained through webgazer.js. Basic demographic of the tester such as age and gender are also collected for categorization and report generation. The collected data is then stored in the server. 
+The testing details can be reviewed from the admin's dashboard. Several features such as timeline, demographic filtering, heatmap,AOI, etc, are provided for easily analyzing the data.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{proposed-method.png}
+    \caption{\textbf{Figure 1.} Control Flow Diagram}
+    \label{fig:dfd}
+    \label{}
+\end{figure}
+
+\newpage
+\section{HOW IT WORKS?}
+
+\newpage
+\section{FEATURES OF USABILITY REPORT}
+
+\newpage
+\section{PROBLEMS WE FACED}
+
+\newpage
+\section{CONCLUSION}
+\paragraph{}
+At present, existing Usability\-Testing methods for web based platforms are quite expensive and requires a considerable amount of resources including man-power and time.
+Thus to overcome these challenges, the proposed system uses eye-tracking, cursor-movement and mouse-clicks to evaluate the positions on the screen where the user pays more attention and a score for each UI element is assigned from the resulting heat-map.
+This testing is done for different age groups a final analysis report is generated. The UX team in turn can use this report to identify what they have done right \& wrong and hence improve their design.
+
+
+\newpage
+% \cleardoublepage
+% \addcontentsline{toc}{section}{\textbf{References}}
+% \addcontentsline{}{section}{\textbf{References}}
+
+\section{REFERENCES}
+\begin{thebibliography}{9}
+    \bibitem{d}
+    Papoutsaki, Alexandra \& Sangkloy, Patsorn \& Laskey, James \& Daskalova, Nediyana \& Huang, Jeff \& Hays, James. (2016). \emph{WebGazer: Scalable Webcam Eye Tracking Using User Interactions.}
+
+    \bibitem{d}
+    Kiril Alexiev, Teodor Toshkov and Peter Dojnow. 2019. Accuracy and Precision of eye tracker by head movement compensation and calibration. \emph{20th International Conference on Computer Systems and Technologies
+(CompSysTech'19)}, Jun 21-22, 2019, Ruse, Bulgaria, 8 pages.
+https://doi.org/10.1145/3345252.3345278.
+
+
+
+\end{thebibliography}
+\end{document}
