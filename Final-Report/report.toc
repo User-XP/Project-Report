@@ -1,30 +1,26 @@
-\contentsline {paragraph}{}{}% 
-\contentsline {paragraph}{}{}% 
-\contentsline {paragraph}{}{}% 
-\contentsline {paragraph}{}{}% 
-\contentsline {paragraph}{}{}% 
-\contentsline {section}{\numberline {1}INTRODUCTION}{1}% 
-\contentsline {paragraph}{}{1}% 
-\contentsline {paragraph}{}{1}% 
-\contentsline {paragraph}{}{1}% 
-\contentsline {paragraph}{}{1}% 
-\contentsline {section}{\numberline {2}PROBLEM FORMULATION}{2}% 
-\contentsline {paragraph}{}{2}% 
-\contentsline {paragraph}{}{2}% 
-\contentsline {section}{\numberline {3}OUR OBJECTIVES}{3}% 
-\contentsline {section}{\numberline {4}LITERATURE SURVEY}{4}% 
-\contentsline {subsection}{\numberline {4.1}Eye-Tracking}{4}% 
-\contentsline {subsubsection}{\numberline {4.1.1}TurkerGaze}{4}% 
-\contentsline {subsubsection}{\numberline {4.1.2}XLabsGaze}{4}% 
-\contentsline {subsubsection}{\numberline {4.1.3}WebGazer.js}{4}% 
-\contentsline {subsection}{\numberline {4.2}Usability Testing}{4}% 
-\contentsline {subsubsection}{\numberline {4.2.1}Eye Tracking in User Experience Testing: How to Make the Most of It}{4}% 
+\contentsline {chapter}{ACKNOWLEDGEMENT}{i}% 
+\contentsline {chapter}{ABSTRACT}{ii}% 
+\small 
+\small 
+\contentsline {chapter}{LIST OF FIGURES}{iv}% 
+\contentsline {chapter}{\numberline {1}INTRODUCTION}{1}% 
+\contentsline {chapter}{\numberline {2}PROBLEM FORMULATION}{2}% 
+\contentsline {chapter}{\numberline {3}LITERATURE REVIEW}{3}% 
+\contentsline {section}{\numberline {3.1}Eye-Tracking}{3}% 
+\contentsline {subsection}{\numberline {3.1.1}TurkerGaze}{3}% 
+\contentsline {paragraph}{}{3}% 
+\contentsline {subsection}{\numberline {3.1.2}XLabsGaze}{3}% 
+\contentsline {paragraph}{}{3}% 
+\contentsline {subsection}{\numberline {3.1.3}WebGazer.js}{3}% 
+\contentsline {paragraph}{}{3}% 
+\contentsline {section}{\numberline {3.2}Usability Testing}{3}% 
+\contentsline {subsection}{\numberline {3.2.1}Eye Tracking in User Experience Testing: How to Make the Most of It}{3}% 
+\contentsline {paragraph}{}{3}% 
+\contentsline {chapter}{\numberline {4}PROPOSED SYSTEM}{4}% 
 \contentsline {paragraph}{}{4}% 
-\contentsline {section}{\numberline {5}PROPOSED SYSTEM}{5}% 
-\contentsline {paragraph}{}{5}% 
-\contentsline {section}{\numberline {6}HOW IT WORKS?}{6}% 
-\contentsline {section}{\numberline {7}FEATURES OF USABILITY REPORT}{7}% 
-\contentsline {section}{\numberline {8}PROBLEMS WE FACED}{8}% 
-\contentsline {section}{\numberline {9}CONCLUSION}{9}% 
-\contentsline {paragraph}{}{9}% 
-\contentsline {section}{\numberline {10}REFERENCES}{10}% 
+\contentsline {chapter}{\numberline {5}HOW IT WORKS?}{5}% 
+\contentsline {chapter}{\numberline {6}FEATURES OF USABILITY REPORT}{6}% 
+\contentsline {chapter}{\numberline {7}PROBLEMS WE FACED}{7}% 
+\contentsline {chapter}{\numberline {8}CONCLUSION }{8}% 
+\contentsline {paragraph}{}{8}% 
+\contentsline {chapter}{REFERENCES}{9}% 
