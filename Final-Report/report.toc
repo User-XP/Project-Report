@@ -18,9 +18,13 @@
 \contentsline {paragraph}{}{3}% 
 \contentsline {chapter}{\numberline {4}PROPOSED SYSTEM}{4}% 
 \contentsline {paragraph}{}{4}% 
-\contentsline {chapter}{\numberline {5}HOW IT WORKS?}{5}% 
-\contentsline {chapter}{\numberline {6}FEATURES OF USABILITY REPORT}{6}% 
-\contentsline {chapter}{\numberline {7}PROBLEMS WE FACED}{7}% 
-\contentsline {chapter}{\numberline {8}CONCLUSION }{8}% 
-\contentsline {paragraph}{}{8}% 
-\contentsline {chapter}{REFERENCES}{9}% 
+\contentsline {section}{\numberline {4.1}Client Side Script}{5}% 
+\contentsline {subsection}{\numberline {4.1.1}Tracking Script}{5}% 
+\contentsline {subsection}{\numberline {4.1.2}Callibration \& Eye Tracking}{5}% 
+\contentsline {section}{\numberline {4.2}Backend}{6}% 
+\contentsline {chapter}{\numberline {5}HOW IT WORKS?}{7}% 
+\contentsline {chapter}{\numberline {6}FEATURES OF USABILITY REPORT}{8}% 
+\contentsline {chapter}{\numberline {7}PROBLEMS WE FACED}{9}% 
+\contentsline {chapter}{\numberline {8}CONCLUSION }{10}% 
+\contentsline {paragraph}{}{10}% 
+\contentsline {chapter}{REFERENCES}{11}% 

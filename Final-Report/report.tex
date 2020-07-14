@@ -272,8 +272,48 @@ The testing details can be reviewed from the admin's dashboard. Several features
     \counterwithin{figure}{section}
     \caption{Control Flow Diagram}
 \end{figure}
+The system mainly consist of 2 parts:
+\begin{itemize}
+	\item Client Side Script
+	\item Backend \& Dashboard
+\end{itemize}
+\section{Client Side Script}
+This consist of various module that are exectude int the client side.This module is responsible for the calibration and the optimization of testers eye movements \& sending the eye tracking data along with the user demographic to the server for further processing.
 
+It mainly consist of the following modules:
+\subsection{Tracking Script}
+The functionality of the tracking Script is similar to that of the Google Analytics Tracking code. This script enables our service to track the users website. For each websites a unique tracking script is generated and the script is inserted into the \textbf{\textit{head}} tag of the website to be tested.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{tracking-script.png}
+    \counterwithin{figure}{section}
+    \caption{Tracking Script}
+\end{figure}
 
+\subsection{Callibration \& Eye Tracking}
+When the website to be tested is loaded it's content is replaced by the callibration page. During the calibration process the system learns how a tester’s eyes move when they are looking at certain parts of the screen.
+WebGazer, a self callibrated eye-tracking library is used for obtaining the eye-gaze locations of varoius testers on the website in real time.
+
+In the initial phase of callibration the eye tracking model is self callibrated by matching the pupil positions and eye features with screen locations during user interactions.
+After the calibration process, the users website is reloaded and the testers interact with it just like any other website for a time period of 30sec. Then the tester fills up a form regarding the tester demographics and this data along with the tracking data is updated into the server.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{tracking-data.png}
+    \counterwithin{figure}{section}
+    \caption{Tracking Data}
+\end{figure}
+
+The above figure shows a snippet of the data being posted to the server after the test.
+The submited data consist the following data:
+\begin{itemize}
+	\item Project ID: A unique ID to identify each project.
+	\item URL: URL of the website to be tested.
+	\item Browser Dimentions: It consist of the browser width and height in pixels.
+	\item User Demographics: Details such as name, age and gender of the tester.
+	\item Gaze-Recording: It consist of 5 attributes-Eye Coordinates(both x \& y coordinates), Timestamp, Scroll Offset and Mouse Coordinates(both x \& y coordinates) respectively.
+\end{itemize}
+
+\section{Backend}
 
 \newpage
 \chapter{HOW IT WORKS?}
