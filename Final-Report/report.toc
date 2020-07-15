@@ -21,10 +21,11 @@
 \contentsline {section}{\numberline {4.1}Client Side Script}{5}% 
 \contentsline {subsection}{\numberline {4.1.1}Tracking Script}{5}% 
 \contentsline {subsection}{\numberline {4.1.2}Callibration \& Eye Tracking}{5}% 
-\contentsline {section}{\numberline {4.2}Backend}{6}% 
-\contentsline {chapter}{\numberline {5}HOW IT WORKS?}{7}% 
-\contentsline {chapter}{\numberline {6}FEATURES OF USABILITY REPORT}{8}% 
-\contentsline {chapter}{\numberline {7}PROBLEMS WE FACED}{9}% 
-\contentsline {chapter}{\numberline {8}CONCLUSION }{10}% 
-\contentsline {paragraph}{}{10}% 
-\contentsline {chapter}{REFERENCES}{11}% 
+\contentsline {subsection}{\numberline {4.1.3}Dashboard}{6}% 
+\contentsline {section}{\numberline {4.2}Backend}{7}% 
+\contentsline {chapter}{\numberline {5}HOW IT WORKS?}{8}% 
+\contentsline {chapter}{\numberline {6}FEATURES OF USABILITY REPORT}{9}% 
+\contentsline {chapter}{\numberline {7}PROBLEMS WE FACED}{10}% 
+\contentsline {chapter}{\numberline {8}CONCLUSION }{11}% 
+\contentsline {paragraph}{}{11}% 
+\contentsline {chapter}{REFERENCES}{12}% 

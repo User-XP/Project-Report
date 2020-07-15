@@ -313,7 +313,23 @@ The submited data consist the following data:
 	\item Gaze-Recording: It consist of 5 attributes-Eye Coordinates(both x \& y coordinates), Timestamp, Scroll Offset and Mouse Coordinates(both x \& y coordinates) respectively.
 \end{itemize}
 
+\subsection{Dashboard}
+
+It's an interactive website made using HTML,CSS \& JS which acts as platform for the users for adding,managing and the deletion of their projects.
+Each of the projects page is equipped with various details such as tracking code, user demographic chart and the listing of all the testers along with the report.
+
+\textbf{dashboard Pic?}
+\newpage
 \section{Backend}
+The backend of our service uses NodeJs, EJS Templating and Mongodb for the database.
+NodeJs was used due to its high performance and the due to the fact that client side script is written in javascript so less time learning a different language.
+
+EJS or Embedded Javascript Templating is a simple templating engine used by NodeJs that lets you generate HTML markup with plain JavaScript.It can inject data into HTML template at the client side and produce the final HTML. It is used because of it's fast compilation and rendering property.
+EJS also support Js on the server side and is also supported by all the browsers.
+
+Mongodb is leading NoSQl, cross-platform, document oriented database that provides, high performance, high availability, and easy scalability. MongoDB works on concept of collection and document. The data is stored in BSON(Binary JSON) format in the form of key-value pair.
+
+\textbf{Sample mongodb record pic?}
 
 \newpage
 \chapter{HOW IT WORKS?}
@@ -330,7 +346,8 @@ The submited data consist the following data:
 \paragraph{}
 At present, existing Usability\-Testing methods for web based platforms are quite expensive and requires a considerable amount of resources including man-power and time.
 Thus to overcome these challenges, the proposed system uses eye-tracking, cursor-movement and mouse-clicks to evaluate the positions on the screen where the user pays more attention and a score for each UI element is assigned from the resulting heat-map.
-This testing is done for different age groups a final analysis report is generated. The UX team in turn can use this report to identify what they have done right \& wrong and hence improve their design.
+This testing is done for different age groups a final analysis report is generated. The UX team in turn can use this report to identify what they have done right \& wrong and hence improve their design.The default behavior of EJS is that it looks into the ‘views’ folder for the templates to render. So all the webpages required is to be stored in the views folder in ejs format.
+
 
 \newpage
 \addcontentsline{toc}{chapter}{REFERENCES}
