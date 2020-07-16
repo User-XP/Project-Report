@@ -1,36 +1,42 @@
-\contentsline {chapter}{ACKNOWLEDGEMENT}{i}% 
-\contentsline {chapter}{ABSTRACT}{ii}% 
-\relax \fontsize {10.95}{13.6}\selectfont \abovedisplayskip 11\p@ plus3\p@ minus6\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip 
-\relax \fontsize {10.95}{13.6}\selectfont \abovedisplayskip 11\p@ plus3\p@ minus6\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip 
-\contentsline {chapter}{LIST OF FIGURES}{iv}% 
-\contentsline {chapter}{\numberline {1}INTRODUCTION}{1}% 
-\contentsline {chapter}{\numberline {2}PROBLEM FORMULATION}{2}% 
-\contentsline {chapter}{\numberline {3}LITERATURE REVIEW}{3}% 
-\contentsline {section}{\numberline {3.1}Remote Usability Testing Using Eyetracking[1]}{3}% 
-\contentsline {section}{\numberline {3.2}Eye Tracking in User Experience Testing: How to Make the Most of It}{3}% 
-\contentsline {section}{\numberline {3.3}Webgazer: Scalable Webcam Eye Tracking Using User Interactions}{3}% 
-\contentsline {section}{\numberline {3.4}Eye Tracking in User Experience Design, Jennifer Romano Bergstrom, Andrew Schall}{3}% 
-\contentsline {chapter}{\numberline {4}RELATED WORKS}{4}% 
-\contentsline {section}{\numberline {4.1}Manual User Testing}{4}% 
-\contentsline {paragraph}{}{4}% 
-\contentsline {section}{\numberline {4.2}Usertesting.com}{4}% 
-\contentsline {paragraph}{}{4}% 
-\contentsline {section}{\numberline {4.3}Hotjar}{4}% 
-\contentsline {paragraph}{}{4}% 
-\contentsline {section}{\numberline {4.4}UXReality}{4}% 
-\contentsline {chapter}{\numberline {5}PROPOSED SYSTEM}{5}% 
-\contentsline {section}{\numberline {5.1}OVERVIEW}{5}% 
-\contentsline {paragraph}{}{5}% 
-\contentsline {section}{\numberline {5.2}Website Tracking Script}{6}% 
-\contentsline {subsection}{\numberline {5.2.1}Tracking Code}{6}% 
-\contentsline {subsection}{\numberline {5.2.2}Calibration \& Eye Tracking}{6}% 
-\contentsline {section}{\numberline {5.3}Dashboard}{7}% 
-\contentsline {section}{\numberline {5.4}Backend}{8}% 
-\contentsline {subsection}{\numberline {5.4.1}Database}{8}% 
-\contentsline {subsection}{\numberline {5.4.2}Authentication1, Routing, Templating \& Other Tasks}{8}% 
-\contentsline {subsection}{\numberline {5.4.3}API Endpoints}{9}% 
-\contentsline {chapter}{\numberline {6}HOW IT WORKS?}{10}% 
-\contentsline {chapter}{\numberline {7}FEATURES OF USABILITY REPORT}{11}% 
-\contentsline {chapter}{\numberline {8}CONCLUSION \& Future Scope}{12}% 
-\contentsline {paragraph}{}{12}% 
-\contentsline {chapter}{REFERENCES}{13}% 
+\contentsline {chapter}{ACKNOWLEDGEMENT}{i}{Doc-Start}% 
+\contentsline {chapter}{ABSTRACT}{ii}{Doc-Start}% 
+\small 
+\small 
+\contentsline {chapter}{LIST OF FIGURES}{iv}{Doc-Start}% 
+\contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}% 
+\contentsline {chapter}{\numberline {2}PROBLEM FORMULATION}{2}{chapter.2}% 
+\contentsline {chapter}{\numberline {3}LITERATURE REVIEW}{3}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Remote Usability Testing Using Eyetracking\textsuperscript {1}}{3}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Eye Tracking in User Experience Testing: How to Make the Most of It\textsuperscript {2}}{3}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}Webgazer: Scalable Webcam Eye Tracking Using User Interactions\textsuperscript {3}}{3}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}Eye Tracking in User Experience Design\textsuperscript {4}}{3}{section.3.4}% 
+\contentsline {chapter}{\numberline {4}RELATED WORKS}{4}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Manual User Testing}{4}{section.4.1}% 
+\contentsline {paragraph}{}{4}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Usertesting.com}{4}{section.4.2}% 
+\contentsline {paragraph}{}{4}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Hotjar}{4}{section.4.3}% 
+\contentsline {paragraph}{}{4}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}UXReality}{4}{section.4.4}% 
+\contentsline {chapter}{\numberline {5}PROPOSED SYSTEM}{5}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Overview}{5}{section.5.1}% 
+\contentsline {paragraph}{}{5}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Website Tracking Script}{6}{section.5.2}% 
+\contentsline {subsection}{\numberline {5.2.1}Tracking Code}{6}{subsection.5.2.1}% 
+\contentsline {subsection}{\numberline {5.2.2}Calibration \& Eye Tracking}{6}{subsection.5.2.2}% 
+\contentsline {section}{\numberline {5.3}Dashboard}{7}{section.5.3}% 
+\contentsline {subsection}{\numberline {5.3.1}SighUp and Login}{7}{subsection.5.3.1}% 
+\contentsline {paragraph}{}{8}{subsection.5.3.1}% 
+\contentsline {subsection}{\numberline {5.3.2}Project Management}{8}{subsection.5.3.2}% 
+\contentsline {subsubsection}{Project Creation}{8}{subsection.5.3.2}% 
+\contentsline {subsubsection}{Project Details}{9}{figure.5.3.1}% 
+\contentsline {subsection}{\numberline {5.3.3}Usability Report and it's Features}{10}{subsection.5.3.3}% 
+\contentsline {subsubsection}{Heat map \& Gaze Opacity Map}{10}{subsection.5.3.3}% 
+\contentsline {subsubsection}{Area of Intrest(AOI)}{10}{figure.5.3.4}% 
+\contentsline {section}{\numberline {5.4}Backend}{11}{section.5.4}% 
+\contentsline {subsection}{\numberline {5.4.1}Database}{11}{subsection.5.4.1}% 
+\contentsline {subsection}{\numberline {5.4.2}Authentication, Routing, Templating \& Other Tasks}{12}{subsection.5.4.2}% 
+\contentsline {subsection}{\numberline {5.4.3}API Endpoints}{13}{subsection.5.4.3}% 
+\contentsline {chapter}{\numberline {6}CONCLUSION \& FUTURE SCOPE}{14}{chapter.6}% 
+\contentsline {paragraph}{}{14}{chapter.6}% 
+\contentsline {chapter}{REFERENCES}{15}{chapter.6}% 

@@ -9,6 +9,7 @@
 \usepackage{float}
 \usepackage{placeins}
 \usepackage{graphicx}
+\usepackage{hyperref}
 \usepackage[left=2.5cm,right=2.5cm,top=2cm,bottom=2cm]{geometry}
 \linespread{1.2}
 \usepackage{setspace}
@@ -56,7 +57,7 @@
 
 \author
 {   \textbf{Ganesh Sekhar (CHN16CS055)}\\
-	\textbf{Shan Eapen Koshy (CHN16CS095)} \\[0.1mm]
+    \textbf{Shan Eapen Koshy (CHN16CS095)} \\[0.1mm]
 	\textbf{Sachin Sajan Punoose (CHN16CS)} \\[0.1mm]
 	\textbf{S Hemanth (CHN16CS098)} \\[0.1mm]
 	\textbf{to}\\
@@ -229,21 +230,22 @@ various other metrics including eye tracking.
 
 \newpage
 \chapter{LITERATURE REVIEW}
-\section{Remote Usability Testing Using Eyetracking[1]}
+\section{Remote Usability Testing Using Eyetracking\textsuperscript{1}}
 In this paper, a low cost method of using eyetracking to perform remote usability tests on users is described. Standard web camera with freeware software is used for this experiment and the experiment concludes that it is not perfect, but it lays a foundation for futher development. Also, the technique described in the paper is not realtime and manual post processing is required for generating reports.
 
 \section{Eye Tracking in User Experience Testing:
-How to Make the Most of It}
+How to Make the Most of It\textsuperscript{2}}
 This paper introduces eye tracking as a user experience testing tool. It focuses on how to design and conduct studies involving eye tracking, so that eye movement data can effectively supplement data obtained through more conventional methods. Using examples from actual studies, we share lessons learned and provide advice on how to avoid common mistakes. 
 
-\section{Webgazer: Scalable Webcam Eye Tracking Using User Interactions}
+\section{Webgazer: Scalable Webcam Eye Tracking Using User Interactions\textsuperscript{3}}
 WebGazer, an online eye tracker that uses common webcams already present in laptops and mobile devices to infer the eye-gaze locations of web visitors on a page in real time is introduced in this paper. The eye tracking
 model self-calibrates by watching web visitors interact with the web page and trains a mapping between features of the eye and positions on the screen. This
 approach aims to provide a natural experience to everyday users that is not restricted to laboratories and highly controlled user studies. WebGazer has
 two key components: a pupil detector that can be combined with any eye detection library, and a gaze estimator using regression analysis informed by user
 interactions.The findings show that WebGazer can learn from user interactions and that its accuracy is sufficient for approximating the user’s gaze.
 
-\section{Eye Tracking in User Experience Design, Jennifer Romano Bergstrom, Andrew Schall}
+\section{Eye Tracking in User Experience Design\textsuperscript{4}}
+
 \newpage
 \chapter{RELATED WORKS}
 \section{Manual User Testing}
@@ -271,9 +273,10 @@ But hotjar does not provide us with eye gaze spots or the focus points of the us
 
 \section{UXReality}
 
+
 \newpage
 \chapter{PROPOSED SYSTEM}
-\section{OVERVIEW}
+\section{Overview}
 \paragraph{}
 In this proposed system, a user can submit a URL of the website to be analyzed. The system then generates a unique tracking code for this website which can be manually inserted into the website to be tested.
 Testers can access this URL and interact with the website normally while we collect the tester's eye coordinates that we obtained through webgazer.js. Basic demographic of the tester such as age and gender are also collected for categorization and report generation. The collected data is then stored in the server. 
@@ -325,13 +328,74 @@ The submited data consist the following data:
 	\item Gaze-Recording: It consist of 5 attributes-Eye Coordinates(both x \& y coordinates), Timestamp, Scroll Offset and Mouse Coordinates(both x \& y coordinates) respectively.
 \end{itemize}
 
-\section{Dashboard}
 
+\section{Dashboard}
 It's an interactive website made using HTML,CSS \& JS which acts as platform for the users for adding,managing and the deletion of their projects.
 Each of the projects page is equipped with various details such as tracking code, user demographic chart and the listing of all the testers along with the report.
 
-\textbf{dashboard Pic?}
+\subsection{SighUp and Login}
+The website manager can register in our platform by Signing Up the form directly or by using Sign Up using Google option.
+\paragraph{}
+In Sign Up directly the user can create an account by filling the form. The password is encrypted using MD5 encryption algorithm and the user details are stored into the database.
+Users can also signup using their Google accounts, where basic details like name, email and image will be retrieved from Google and will be stored in our database.
+
+\subsection{Project Management}
+Dashboard also acts as a platform where the users can create, update and delete projects. Once the user logs into the dashboard all his existing projects will be displayed. Method for adding new projects is also displayed.
+\subsubsection{Project Creation}
+The prompt for creating a new project is shown below. In this the user have to enter the name of the project as required, the URL of the website to be tested and the maximum number of testers required for this project. Once the project is created, the above details are added into the database.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=.8]{create-project.png}
+    \counterwithin{figure}{section}
+    \caption{Create new project prompt}
+\end{figure}
+\subsubsection{Project Details}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{project-page.png}
+    \counterwithin{figure}{section}
+    \caption{Project Page}
+\end{figure}
+Each project page contains the unique tracking code for that project which is to be inserted into the website to be tested.
+A pie-chart displaying the details of the tester demographics and a table showing the details of all the testers for this project along with their individual report.
+An option to delete the project is also available. Once the project is deleted the project data along with the tester’s data is removed from the database.
+
+In order to avoid the accidental deletion of the project, the user is asked to enter the Project-ID to conform the deletion process.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=.8]{delete-project.png}
+    \counterwithin{figure}{section}
+    \caption{Delete Project Prompt}
+\end{figure}
+
 \newpage
+\subsection{Usability Report and it's Features}
+A usability report is generated from the data obtained from each testes of a project which provides an insight on how various testers interacts with the website and infer the necessary changes to be made so as to improve the user experience.
+
+Various features of the report are:
+\subsubsection{Heat map \& Gaze Opacity Map}
+A heatmap is a visualization that uses different colors to highlight the regions viewed by the tester. Heat maps are color coded: red is typically used to indicate the most focused region and
+green the least, with varying levels in between. An area with no color on a heat map signifies that the participants may not have focused on the area.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{heat & gaze map.png}
+    \counterwithin{figure}{section}
+    \caption{Heat Map \& Gaze Opacity Map}
+\end{figure}
+The Gaze Opacity map is an inverse map of compiled fixation data. The opposite of a heat map, it is best used to highlight
+areas of user interaction on the website.The white region in this map marks the region where the tester had focused and the black region corresponds to less interaced area.
+It is also known as a Spotlight map.
+\subsubsection{Area of Intrest(AOI)}
+AOIs are specific areas or content of the user interface that
+interests the UX team. The user can select any specific portion on the website by drawing a square box in the window and can obtaine the details on how much time the tester had spend in that region.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{AOI.png}
+    \counterwithin{figure}{section}
+    \caption{Area of Intrest(AOI)}
+\end{figure}
+In the above figure,the square portion marks the Area of Intrest and the data present shows that the user had spent 32\% of the total time in this region and spend about 1470ms here.
+
 \section{Backend}
 The backend of our system is powered by NodeJS with Express and peforms the tasks such as database management, routing, templating, authentication and it also provides API endpoints for the frontend. 
 
@@ -352,7 +416,7 @@ MongoDB was used as database due to the nature of data being dealt with. MongoDB
 \end{figure}
 The figure shows the basic schema for the 3 collections but since MongoDB requires no schema we can easily add new entries to each document as a key-value pair.
 
-\subsection{Authentication1, Routing, Templating \& Other Tasks}
+\subsection{Authentication, Routing, Templating \& Other Tasks}
 One of the first task of the backend is to authenticate users and we provide two methods for doing that. Users can signup using Google SSO or with an email and password. Authentication is handled by passportJS, a nodeJS library and users are authenticated with a cookie based approach.
 
 \begin{figure}[H]
@@ -372,36 +436,42 @@ The following APIs allow the frontend to interact with backend for CRUD operatio
     \item \textbf{/api/v1/submit} This endpoint is used to recieve the form data from the website and it is available publically. To avoid misuse or false submissions, each request is verfied by crossmatching the origin URL and the URL in the database for the given project ID.
     \item \textbf{/api/v1/newProject} This endpoint should originate from an authenticated user and it creates a new DB entry with the given project details.
     \item \textbf{/api/v1/delete/:id} The delete endpoint takes an ID of the project which is to be deleted. The backend verifies that the request is coming from an authenticated user and also if the request originated from the corresponding project page. This ensures that other projects are not accidently or intentionally deleted by bruteforcing the id in the endpoint.
+\end{itemize}
 
 \newpage
-\chapter{HOW IT WORKS?}
-
-
-\newpage
-\chapter{FEATURES OF USABILITY REPORT}
-
-
-\newpage
-\chapter{CONCLUSION \& Future Scope}
+\chapter{CONCLUSION \& FUTURE SCOPE}
 \paragraph{}
 At present, existing Usability/\-Testing methods for web based platforms are quite expensive and requires a considerable amount of resources including man-power and time.
 Thus to overcome these challenges, the proposed system uses eye-tracking, cursor-movement and mouse-clicks to evaluate the positions on the screen where the user pays more attention and a score for each UI element is assigned from the resulting heat-map.
 This testing is done for different age groups a final analysis report is generated. The UX team in turn can use this report to identify what they have done right \& wrong and hence improve their design.The default behavior of EJS is that it looks into the ‘views’ folder for the templates to render. So all the webpages required is to be stored in the views folder in ejs format.
 
-The proposed system paves a new age of online remote UX stu
 
 \newpage
 \addcontentsline{toc}{chapter}{REFERENCES}
 \vspace{0.3cm}
 \begin{thebibliography}{}
     \bibitem{1}
+    Chynal, Piotr \& Szymański, Jerzy (2011). \emph{Remote Usability Testing Using Eyetracking.} 
+    \newline
+    \url{https://www.researchgate.net/publication/221053998_Remote_Usability_Testing_Using_Eyetracking}
+    \bibitem{d}
+    Agnieszka Bojko (2015). \emph{Eye Tracking in User Experience Testing: How to Make the Most of It }
+    \newline
+    \url{https://www.researchgate.net/publication/266161907_Eye_Tracking_in_User_Experience_Testing_How_to_Make_the_Most_of_It}
+    \bibitem{d}
     Papoutsaki, Alexandra \& Sangkloy, Patsorn \& Laskey, James \& Daskalova, Nediyana \& Huang, Jeff \& Hays, James. (2016). \emph{WebGazer: Scalable Webcam Eye Tracking Using User Interactions.}
+    \newline
+    \url{https://jeffhuang.com/Final_WebGazer_IJCAI16.pdf}
+    \bibitem{d}
+    Jennifer Romano Bergstrom \& Andrew Jonathan Schall \emph{Eye Tracking in User Experience Design.}
+    \newline
+    \url{https://books.google.co.in/books?id=5Hp0AgAAQBAJ&lpg=PP1&ots=2Zh1X9Y9u0&dq=eye%20tracking%20in%20user%20experience%20design&lr&pg=PP1#v=onepage&q&f=false}
     \bibitem{d}
     Kiril Alexiev, Teodor Toshkov and Peter Dojnow. 2019. Accuracy and Precision of eye tracker by head movement compensation and calibration. \emph{20th International Conference on Computer Systems and Technologies
     (CompSysTech'19)}, Jun 21-22, 2019, Ruse, Bulgaria, 8 pages.
-    https://doi.org/10.1145/3345252.3345278.
+    \newline
+    \url{https://doi.org/10.1145/3345252.3345278.}
 
 \end{thebibliography}
 
 \end{document}
-

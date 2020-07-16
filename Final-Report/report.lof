@@ -3,11 +3,14 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1.1}{\ignorespaces Control Flow Diagram}}{5}% 
-\contentsline {figure}{\numberline {5.2.1}{\ignorespaces Tracking Script}}{6}% 
-\contentsline {figure}{\numberline {5.2.2}{\ignorespaces Tracking Data}}{7}% 
-\contentsline {figure}{\numberline {5.4.1}{\ignorespaces MongoDB Collections}}{8}% 
-\contentsline {figure}{\numberline {5.4.2}{\ignorespaces Google SSO Authentication}}{9}% 
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1.1}{\ignorespaces Control Flow Diagram}}{5}{figure.5.1.1}% 
+\contentsline {figure}{\numberline {5.2.1}{\ignorespaces Tracking Script}}{6}{figure.5.2.1}% 
+\contentsline {figure}{\numberline {5.2.2}{\ignorespaces Tracking Data}}{7}{figure.5.2.2}% 
+\contentsline {figure}{\numberline {5.3.1}{\ignorespaces Create new project prompt}}{8}{figure.5.3.1}% 
+\contentsline {figure}{\numberline {5.3.2}{\ignorespaces Project Page}}{9}{figure.5.3.2}% 
+\contentsline {figure}{\numberline {5.3.3}{\ignorespaces Delete Project Prompt}}{9}{figure.5.3.3}% 
+\contentsline {figure}{\numberline {5.3.4}{\ignorespaces Heat Map \& Gaze Opacity Map}}{10}{figure.5.3.4}% 
+\contentsline {figure}{\numberline {5.3.5}{\ignorespaces Area of Intrest(AOI)}}{11}{figure.5.3.5}% 
+\contentsline {figure}{\numberline {5.4.1}{\ignorespaces MongoDB Collections}}{12}{figure.5.4.1}% 
+\contentsline {figure}{\numberline {5.4.2}{\ignorespaces Google SSO Authentication}}{12}{figure.5.4.2}% 
 \addvspace {10\p@ }
