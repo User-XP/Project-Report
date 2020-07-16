@@ -6,15 +6,12 @@
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}% 
 \contentsline {chapter}{\numberline {2}PROBLEM FORMULATION}{2}% 
 \contentsline {chapter}{\numberline {3}LITERATURE REVIEW}{3}% 
-\contentsline {section}{\numberline {3.1}Eye-Tracking}{3}% 
-\contentsline {subsection}{\numberline {3.1.1}TurkerGaze}{3}% 
+\contentsline {section}{\numberline {3.1}Usability Testing}{3}% 
+\contentsline {subsection}{\numberline {3.1.1}Manual User Testing}{3}% 
 \contentsline {paragraph}{}{3}% 
-\contentsline {subsection}{\numberline {3.1.2}XLabsGaze}{3}% 
+\contentsline {subsection}{\numberline {3.1.2}Usertesting.com}{3}% 
 \contentsline {paragraph}{}{3}% 
-\contentsline {subsection}{\numberline {3.1.3}WebGazer.js}{3}% 
-\contentsline {paragraph}{}{3}% 
-\contentsline {section}{\numberline {3.2}Usability Testing}{3}% 
-\contentsline {subsection}{\numberline {3.2.1}Eye Tracking in User Experience Testing: How to Make the Most of It}{3}% 
+\contentsline {subsection}{\numberline {3.1.3}Hotjar}{3}% 
 \contentsline {paragraph}{}{3}% 
 \contentsline {chapter}{\numberline {4}PROPOSED SYSTEM}{4}% 
 \contentsline {paragraph}{}{4}% 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.6)  15 JUL 2020 12:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.6)  16 JUL 2020 11:28
 entering extended mode
 **c:/Users/Asus/Desktop/Project-Files/Project-Report/Final-Report/report.tex
 (c:/Users/Asus/Desktop/Project-Files/Project-Report/Final-Report/report.tex
@@ -508,12 +508,12 @@ CHAPTER 1.
 
 ]
 CHAPTER 2.
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 233.
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 220.
 ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 233.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 220.
  [2
 
 ]
@@ -525,22 +525,22 @@ CHAPTER 4.
 <proposed-method.png, id=40, 490.83376pt x 338.4645pt>
 File: proposed-method.png Graphic file (type png)
 <use proposed-method.png>
-Package pdftex.def Info: proposed-method.png  used on input line 271.
+Package pdftex.def Info: proposed-method.png  used on input line 265.
 (pdftex.def)             Requested size: 455.24411pt x 313.93207pt.
 [4
 
  <c:/Users/Asus/Desktop/Project-Files/Project-Report/Final-Report/proposed-method.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 285.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 279.
 <tracking-script.png, id=45, 1148.29pt x 668.4975pt>
 File: tracking-script.png Graphic file (type png)
 <use tracking-script.png>
-Package pdftex.def Info: tracking-script.png  used on input line 288.
+Package pdftex.def Info: tracking-script.png  used on input line 282.
 (pdftex.def)             Requested size: 455.24411pt x 265.02776pt.
 <tracking-data.png, id=46, 538.01pt x 367.3725pt>
 File: tracking-data.png Graphic file (type png)
 <use tracking-data.png>
-Package pdftex.def Info: tracking-data.png  used on input line 301.
+Package pdftex.def Info: tracking-data.png  used on input line 295.
 (pdftex.def)             Requested size: 455.24411pt x 310.86107pt.
 
 
@@ -577,7 +577,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  46i,10n,45p,1202b,455s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Asus/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/Asus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Asus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Asus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Asus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Asus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on c:/Users\Asus\Desktop\Project-Files\Project-Report\Final-Report\report.pdf (19 pages, 404580 bytes).
+Output written on c:/Users\Asus\Desktop\Project-Files\Project-Report\Final-Report\report.pdf (19 pages, 405044 bytes).
 PDF statistics:
  92 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

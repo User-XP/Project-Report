@@ -198,25 +198,12 @@ S Hemanth
 \chapter{INTRODUCTION}
 \vspace{0.3cm}
 \noindent
-Usability Testing is defined as a type of software testing where, a small set of target endusers,
-of a software system, ”use” it to expose usability defects. This testing mainly focuses
-on the user’s ease to use the application, flexibility in handling controls and the ability of the
-system to meet its objectives. It is also called User Experience(UX) Testing.
-Eye tracking provides compelling objective data that reveals the human behaviour behind
-the interaction with interfaces or products and uncovers optimization potential. User Experience
-(UX) and Human-Computer Interaction (HCI) researchers have been recognizing the
-unique value of eye tracking for a long time and it is now more than ever available to be easily
-integrated in innovation processes.
-Traditional usability methods and performance measurements might indicate that there’s an
-efficiency issue, but often do not answer why or how to fix it. Eye tracking uniquely provides
-information about tasks that aren’t articulated by participants and that might otherwise pass unobserved
-by the researcher. It captures natural, unbiased user behavior and produces objective
-data to allow effective recommendations to be made. Eye tracking is a flexible technique that
-works with a variety of research methods, including observations, interviews, and retrospective
-think aloud (RTA).
-Our approach combines eye tracking with several other data points such as cursor movements,
-mouse clicks, hover duration and more to score the UI elements present in the screen to
-generate an interactive report.
+Usability testing is the practice of testing how easy a design is to use on a group of representative users. It usually involves observing users as they attempt to complete tasks and can be done for different types of designs, from user interfaces to physical products. It is often conducted repeatedly, from early development until a product’s release. The main benefit and purpose of usability testing is to identify usability problems with a design as early as possible, so they can be fixed before the design is implemented or mass produced. As such, usability testing is often conducted on prototypes rather than finished products, with different levels of fidelity (i.e., detail and finish) depending on the development phase. Prototypes tend to be more primitive, low-fidelity versions (e.g., paper sketches) during early development, and then take the form of more detailed, high-fidelity versions (e.g., interactive digital mock-ups) closer to release.
+
+In a typical usability test, a test moderator gives test participants a series of tasks that they must perform with the design. The tasks represent actions that an end user would typically carry out with the finished product. During the test, the moderator observes each participant’s actions, often also recording the test session on video. After analyzing the results of a usability test, the moderator reports on several points of interest that arose—these include issues such as the aspects of the design that caused problems and the severity of these problems, as well as places in the design that the participants particularly liked. Recognizing this potential to highlight difficulties and strong points in a design’s early versions is a vital part of a designer’s thought process. The broader the testing and the greater the number of matters raised, the stronger the likelihood that designers can craft more successful products. 
+
+Traditional usability methods and performance measurements might indicate that there’s an efficiency issue, but often do not answer why or how to fix it. Eye tracking uniquely provides information about tasks that are not articulated by participants and that might otherwise pass unobserved by the researcher. It captures natural, unbiased user behavior and produces objective data to allow effective recommendations to be made. Eye tracking is a flexible technique that
+works with a variety of research methods, including observations, interviews, and retrospective think aloud (RTA). Our approach combines eye tracking with several other data points such as cursor movements, mouse clicks, hover duration and more to score the UI elements present in the screen to generate an interactive report.
 
 
 \vspace{0.5cm}
@@ -242,22 +229,29 @@ various other metrics including eye tracking.
 
 \newpage
 \chapter{LITERATURE REVIEW}
-\section{Eye-Tracking}
-\subsection{TurkerGaze}
-\paragraph{}
-Turkergaze introduces a webcam-based gaze tracking system that supports large-scale, crowdsourced eye tracking deployed on Amazon Mechanical Turk. By a combination of careful algorithm and gaming protocol design, our system obtains eye tracking data for saliency prediction comparable to data gathered in a traditional lab setting, with relatively lower cost and less effort on the part of the researchers.
-The main disadvantage with TurkerGaze is that the calibration time is quite high and comes with limited browser support.
-\subsection{XLabsGaze}
-\paragraph{}
-xLabsGaze is a webcam based eye tracking technology that comes with it's own pros and cons. It offers realtime tracking without restricting user movement. Once thoroughly calibrated, it just works all the time, allowing users to get up and sit down as much as they like. The main downside to XLabsGaze is that it requires the web developer to send the video feed to their server for eye tracking which can be slow and also pose privacy concerns. They also offer a C++ SDK and chrome plugin but that doesn't provide the web accessibility that we need.
-\subsection{WebGazer.js}
-\paragraph{}
-WebGazer.js is also an eye tracking library that uses common webcams to infer the eye-gaze locations of web visitors on a page in real time. The eye tracking model it contains self-calibrates by watching web visitors interact with the web page and trains a mapping between the features of the eye and positions on the screen.
-
 \section{Usability Testing}
-\subsection{Eye Tracking in User Experience Testing: How to Make the Most of It}
+\subsection{Manual User Testing}
 \paragraph{}
-As eye tracking technology becomes more precise, affordable, and unobtrusive, its popularity continues to increase among usability practitioners. This paper introduces eye tracking as a user experience testing tool. It focuses on how to design and conduct studies involving eye tracking, so that eye movement data can effectively supplement data obtained through more conventional methods. Using examples from actual studies, It lessons learned and provide advice on how to avoid common mistakes.
+Manual usability testing refers to evaluating a product or service by testing it with representative users. Typically, during a live test, participants will try to complete typical tasks while observers watch, listen and takes notes.  The goal is to identify any usability problems, collect qualitative and quantitative data and determine the participant's satisfaction with the product.
+
+Manual testing is an activity, where testing of an application is done by human. Software tester (but it can also be a business user on the client side) executes tests based on the defines test cases ensuring that the application is working properly and meets defined requirements.
+
+But manual testing has many disadvantages; 
+Some tests are difficult or almost not testable manually. E.g. performance tests.
+Less reliable testing results as tests are performed by human. Especially during peaks and under pressure.
+Could be a time-consuming activity, especially when re-executing regression tests multiple times.
+Running manual regression tests may lead to team de-motivation and potentially to professional blindness.
+
+\subsection{Usertesting.com}
+\paragraph{}
+UserTesting.com provides web, desktop and mobile app testing in the market. The company gives marketers, product managers and UX designers, on-demand access to users in their target audience, who deliver audio, video and written feedback on websites or apps in less than one hour. UserTesting.com offers usability testing with advanced targeting, expanded recruiting, live intercepts, moderated testing, quantitative metrics, and research and reporting services.
+Their usability report consisting of audio and video recordings of rapid customer testing, via video conferencing medium. Its very much similar to manual testing. The only difference is that it enables remote users to engage in the testing. So the disadvantages of manual testing affects this model of testing as well.
+
+\subsection{Hotjar}
+\paragraph{}
+Hotjar is a tool that reveals the online behavior and voice of your users. By combining both Analysis and Feedback tools, Hotjar gives the ‘big picture’ of how to improve your site's user experience and performance/conversion rates.
+The Analysis tools allows one to measure and observe user behavior (see what users do) while the Feedback tools enable you to "hear" what your users have to say (the Voice of User).
+But hotjar does not provide us with eye gaze spots or the focus points of the user. The only factor driving the usability testing report by hotjar is mouse pointer and its clicks.
 
 
 \newpage
