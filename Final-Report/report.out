@@ -4,27 +4,26 @@
 \BOOKMARK [0][-]{chapter.1}{INTRODUCTION}{}% 4
 \BOOKMARK [0][-]{chapter.2}{PROBLEM FORMULATION}{}% 5
 \BOOKMARK [0][-]{chapter.3}{LITERATURE REVIEW}{}% 6
-\BOOKMARK [1][-]{section.3.1}{Remote Usability Testing Using Eyetracking1}{chapter.3}% 7
-\BOOKMARK [1][-]{section.3.2}{Eye Tracking in User Experience Testing: How to Make the Most of It2}{chapter.3}% 8
-\BOOKMARK [1][-]{section.3.3}{Webgazer: Scalable Webcam Eye Tracking Using User Interactions3}{chapter.3}% 9
-\BOOKMARK [1][-]{section.3.4}{Eye Tracking in User Experience Design4}{chapter.3}% 10
+\BOOKMARK [1][-]{section.3.1}{Remote Usability Testing Using Eyetracking[1]}{chapter.3}% 7
+\BOOKMARK [1][-]{section.3.2}{Eye Tracking in User Experience Testing: How to Make the Most of It[2]}{chapter.3}% 8
+\BOOKMARK [1][-]{section.3.3}{Webgazer: Scalable Webcam Eye Tracking Using User Interactions[3]}{chapter.3}% 9
+\BOOKMARK [1][-]{section.3.4}{Eye Tracking in User Experience Design[4]}{chapter.3}% 10
 \BOOKMARK [0][-]{chapter.4}{RELATED WORKS}{}% 11
 \BOOKMARK [1][-]{section.4.1}{Manual User Testing}{chapter.4}% 12
 \BOOKMARK [1][-]{section.4.2}{Usertesting.com}{chapter.4}% 13
 \BOOKMARK [1][-]{section.4.3}{Hotjar}{chapter.4}% 14
-\BOOKMARK [1][-]{section.4.4}{UXReality}{chapter.4}% 15
-\BOOKMARK [0][-]{chapter.5}{PROPOSED SYSTEM}{}% 16
-\BOOKMARK [1][-]{section.5.1}{Overview}{chapter.5}% 17
-\BOOKMARK [1][-]{section.5.2}{Website Tracking Script}{chapter.5}% 18
-\BOOKMARK [2][-]{subsection.5.2.1}{Tracking Code}{section.5.2}% 19
-\BOOKMARK [2][-]{subsection.5.2.2}{Calibration \046 Eye Tracking}{section.5.2}% 20
-\BOOKMARK [1][-]{section.5.3}{Dashboard}{chapter.5}% 21
-\BOOKMARK [2][-]{subsection.5.3.1}{SighUp and Login}{section.5.3}% 22
-\BOOKMARK [2][-]{subsection.5.3.2}{Project Management}{section.5.3}% 23
-\BOOKMARK [2][-]{subsection.5.3.3}{Usability Report and it's Features}{section.5.3}% 24
-\BOOKMARK [1][-]{section.5.4}{Backend}{chapter.5}% 25
-\BOOKMARK [2][-]{subsection.5.4.1}{Database}{section.5.4}% 26
-\BOOKMARK [2][-]{subsection.5.4.2}{Authentication, Routing, Templating \046 Other Tasks}{section.5.4}% 27
-\BOOKMARK [2][-]{subsection.5.4.3}{API Endpoints}{section.5.4}% 28
-\BOOKMARK [0][-]{chapter.6}{CONCLUSION \046 FUTURE SCOPE}{}% 29
-\BOOKMARK [0][-]{chapter.6}{REFERENCES}{}% 30
+\BOOKMARK [0][-]{chapter.5}{PROPOSED SYSTEM}{}% 15
+\BOOKMARK [1][-]{section.5.1}{Overview}{chapter.5}% 16
+\BOOKMARK [1][-]{section.5.2}{Website Tracking Script}{chapter.5}% 17
+\BOOKMARK [2][-]{subsection.5.2.1}{Tracking Code}{section.5.2}% 18
+\BOOKMARK [2][-]{subsection.5.2.2}{Calibration \046 Eye Tracking}{section.5.2}% 19
+\BOOKMARK [1][-]{section.5.3}{Dashboard}{chapter.5}% 20
+\BOOKMARK [2][-]{subsection.5.3.1}{Sign Up and Login}{section.5.3}% 21
+\BOOKMARK [2][-]{subsection.5.3.2}{Project Management}{section.5.3}% 22
+\BOOKMARK [2][-]{subsection.5.3.3}{Usability Report and it's Features}{section.5.3}% 23
+\BOOKMARK [1][-]{section.5.4}{Backend}{chapter.5}% 24
+\BOOKMARK [2][-]{subsection.5.4.1}{Database}{section.5.4}% 25
+\BOOKMARK [2][-]{subsection.5.4.2}{Authentication, Routing, Templating \046 Other Tasks}{section.5.4}% 26
+\BOOKMARK [2][-]{subsection.5.4.3}{API Endpoints}{section.5.4}% 27
+\BOOKMARK [0][-]{chapter.6}{CONCLUSION \046 FUTURE SCOPE}{}% 28
+\BOOKMARK [0][-]{chapter.6}{REFERENCES}{}% 29
