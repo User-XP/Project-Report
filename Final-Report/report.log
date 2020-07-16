@@ -1,13 +1,16 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.6)  16 JUL 2020 11:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.15)  16 JUL 2020 19:59
 entering extended mode
-**c:/Users/Asus/Desktop/Project-Files/Project-Report/Final-Report/report.tex
-(c:/Users/Asus/Desktop/Project-Files/Project-Report/Final-Report/report.tex
-LaTeX2e <2019-10-01>
-("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/extsizes\extreport.cls"
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"/Users/shaneapen/Universe/Final Year Project/Project-Report/Final-Report/report.tex"
+(/Users/shaneapen/Universe/Final Year Project/Project-Report/Final-Report/report.tex
+LaTeX2e <2018-12-01>
+(/usr/local/texlive/2019/texmf-dist/tex/latex/extsizes/extreport.cls
 Document Class: extreport 1996/10/08 v1.0 Non Standard LaTeX document class
-("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12.clo"
-File: size12.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\exscale.sty"
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/base/exscale.sty
 Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
 LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
@@ -28,42 +31,42 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen103
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
-Package: amsmath 2019/04/01 v2.17c AMS math features
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
- ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen104
-)) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
+)) (/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen105
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count89
-LaTeX Info: Redefining \frac on input line 227.
+LaTeX Info: Redefining \frac on input line 223.
 \uproot@=\count90
 \leftroot@=\count91
-LaTeX Info: Redefining \overline on input line 389.
+LaTeX Info: Redefining \overline on input line 385.
 \classnum@=\count92
 \DOTSCASE@=\count93
-LaTeX Info: Redefining \ldots on input line 486.
-LaTeX Info: Redefining \dots on input line 489.
-LaTeX Info: Redefining \cdots on input line 610.
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
 \Mathstrutbox@=\box27
 \strutbox@=\box28
 \big@size=\dimen106
-LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \macc@depth=\count94
 \c@MaxMatrixCols=\count95
 \dotsspace@=\muskip10
@@ -84,23 +87,22 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2855.
-LaTeX Info: Redefining \] on input line 2856.
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\bm.sty"
-Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup4
 \symboldletters=\mathgroup5
 \symboldsymbols=\mathgroup6
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
-LaTeX Info: Redefining \bm on input line 209.
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.sty"
+LaTeX Info: Redefining \bm on input line 207.
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup7
 \symAMSb=\mathgroup8
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.sty"
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
 \f@nch@headwidth=\skip46
 \f@nch@O@elh=\skip47
@@ -111,19 +113,19 @@ Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
 \f@nch@O@erf=\skip52
 \f@nch@O@olf=\skip53
 \f@nch@O@orf=\skip54
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/algorithm2e\algorithm2e.sty"
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
 \c@AlgoLine=\count101
- ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \algocf@hangindent=\skip55
- ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ifoddpage\ifoddpage.sty"
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
 \c@checkoddpage=\count102
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\xspace.sty"
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/relsize\relsize.sty"
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
 \skiptotal=\skip56
@@ -161,43 +163,43 @@ Package: relsize 2013/03/29 ver 4.1
 \c@algocf=\count105
 \algocf@algoframe=\box35
 \algocf@algobox=\box36
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.sty"
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count106
 \float@exts=\toks21
 \float@box=\box37
 \@float@everytoks=\toks22
 \@floatcapt=\box38
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/placeins\placeins.sty"
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
- ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks23
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
-Package: graphics 2019/07/20 v1.3b Standard LaTeX Graphics (DPC,SPQR)
- ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 105.
- ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+Package graphics Info: Driver file: pdftex.def on input line 99.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen119
 \Gin@req@width=\dimen120
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.sty"
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/04/16 v5.8 Page Geometry
- ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.sty"
+ (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifvtex.sty"
+) (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.sty"
+) (/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count107
@@ -212,10 +214,10 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen127
 \Gm@layoutvoffset=\dimen128
 \Gm@dimlist=\toks24
- ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.cfg")) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/setspace\setspace.sty"
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/titlesec\titlesec.sty"
-Package: titlesec 2019/10/16 v2.13 Sectioning titles
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box39
 \beforetitleunit=\skip74
 \aftertitleunit=\skip75
@@ -225,37 +227,24 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \titlewidth=\dimen131
 \titlewidthlast=\dimen132
 \titlewidthfirst=\dimen133
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/datetime\datetime.sty"
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/datetime/datetime.sty
 Package: datetime 2015/03/20 v2.60 Date Time Package
- (c:/Users\Asus\Desktop\Project-Files\Project-Report\Final-Report\etoolbox.sty
+ (/Users/shaneapen/Universe/Final Year Project/Project-Report/Final-Report/etoolbox.sty
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count110
-
-
-Package etoolbox Warning: Patching '\begin' failed!
-(etoolbox)                '\AtBeginEnvironment' will not work.
-
-
-Package etoolbox Warning: Patching '\end' failed!
-(etoolbox)                '\AtEndEnvironment' will not work.
-
-
-Package etoolbox Warning: Patching '\end' failed!
-(etoolbox)                '\AfterEndEnvironment' will not work.
-
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fmtcount\fmtcount.sty"
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/fmtcount/fmtcount.sty
 Package: fmtcount 2017/12/24 v3.05
- ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xkeyval\xkeyval.sty"
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
- ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkeyval.tex" ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkvutils.tex"
+ (/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks26
 \XKV@tempa@toks=\toks27
 )
 \XKV@depth=\count111
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fmtcount\fcprefix.sty"
+)) (/usr/local/texlive/2019/texmf-dist/tex/latex/fmtcount/fcprefix.sty
 Package: fcprefix 2012/09/28
- ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fmtcount\fcnumparser.sty"
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
 Package: fcnumparser 2017/06/15
 \fc@digit@counter=\count112
 ))
@@ -268,7 +257,7 @@ Package: fcnumparser 2017/06/15
 \@tmpstrctr=\count119
 \@DT@loopN=\count120
 \@DT@X=\count121
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/datetime\datetime-defaults.sty"
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/datetime/datetime-defaults.sty
 Package: datetime-defaults 2013/09/10
 )
 \@day=\count122
@@ -290,12 +279,12 @@ Package datetime Info: No datetime.cfg file found, using default settings on inp
 LaTeX Info: Redefining \today on input line 736.
 \dt@a=\toks28
 \dt@b=\toks29
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\times.sty"
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\enumerate.sty"
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks30
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tocloft\tocloft.sty"
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
 \cftparskip=\skip76
@@ -334,7 +323,7 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforetabskip=\skip107
 \cfttabindent=\skip108
 \cfttabnumwidth=\skip109
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count139
 \calc@Bcount=\count140
@@ -346,7 +335,7 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count141
 \calc@Cskip=\skip112
-) (c:/Users\Asus\Desktop\Project-Files\Project-Report\Final-Report\report.aux)
+) (/Users/shaneapen/Universe/Final Year Project/Project-Report/Final-Report/report.aux)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
@@ -361,10 +350,10 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
 LaTeX Font Info:    ... okay on input line 86.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
 LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 86.
- ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 86.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
+) (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count142
 \scratchdimen=\dimen136
@@ -377,27 +366,27 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 \MPnumerator=\count146
 \makeMPintoPDFobject=\count147
 \everyMPtoPDFconversion=\toks32
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
- ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
+ (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty"
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
- ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdefinekeys.sty"
+ (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
- ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.sty"
+ (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-))) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
+))) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
- ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvsetkeys.sty"
+ (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
- ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexcmds.sty"
+ (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
- ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifluatex.sty"
+ (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)))) ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO)
+)))) (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
@@ -407,7 +396,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-)
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -442,19 +433,19 @@ Package grfext Info: Graphics extension search list:
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fmtcount\fc-english.def"
+(/usr/local/texlive/2019/texmf-dist/tex/latex/fmtcount/fc-english.def
 File: fc-english.def 2016/01/12
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 88.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 88.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 88.
- ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+LaTeX Font Info:    Try loading font information for U+msa on input line 88.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 88.
- ("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+LaTeX Font Info:    Try loading font information for U+msb on input line 88.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 <ceclogo.png, id=1, 301.125pt x 301.125pt>
@@ -465,7 +456,7 @@ Package pdftex.def Info: ceclogo.png  used on input line 88.
  [1
 
 
-{C:/Users/Asus/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <c:/Users/Asus/Desktop/Project-Files/Project-Report/Final-Report/ceclogo.png>]
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/shaneapen/Universe/Final Year Project/Project-Report/Final-Report/ceclogo.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 90.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
@@ -490,26 +481,25 @@ Overfull \hbox (13.30159pt too wide) in paragraph at lines 142--142
 [1] [2]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 173.
- (c:/Users\Asus\Desktop\Project-Files\Project-Report\Final-Report\report.toc
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
-)
+
+No file report.toc.
 \tf@toc=\write3
 \openout3 = `report.toc'.
 
- [3] (c:/Users\Asus\Desktop\Project-Files\Project-Report\Final-Report\report.lof)
+[3]
+No file report.lof.
 \tf@lof=\write4
 \openout4 = `report.lof'.
 
- [4]
+[4]
 CHAPTER 1.
 [1
 
 
 ]
 CHAPTER 2.
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 220.
-("C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omsptm.fd"
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 220.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
@@ -518,29 +508,40 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 
 ]
 CHAPTER 3.
+
+Overfull \hbox (1.14375pt too wide) in paragraph at lines 246--246
+|[]\OT1/ptm/b/n/14.4 Eye Track-ing in User Ex-pe-ri-ence De-sign, Jen-nifer Ro-mano Bergstrom,
+ []
+
 [3
 
 ]
 CHAPTER 4.
-<proposed-method.png, id=40, 490.83376pt x 338.4645pt>
-File: proposed-method.png Graphic file (type png)
-<use proposed-method.png>
-Package pdftex.def Info: proposed-method.png  used on input line 265.
-(pdftex.def)             Requested size: 455.24411pt x 313.93207pt.
 [4
 
- <c:/Users/Asus/Desktop/Project-Files/Project-Report/Final-Report/proposed-method.png>]
+]
+CHAPTER 5.
+<proposed-method.png, id=44, 490.83376pt x 338.4645pt>
+File: proposed-method.png Graphic file (type png)
+<use proposed-method.png>
+Package pdftex.def Info: proposed-method.png  used on input line 283.
+(pdftex.def)             Requested size: 455.24411pt x 313.93207pt.
+[5
+
+ </Users/shaneapen/Universe/Final Year Project/Project-Report/Final-Report/proposed-method.png>]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 296.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 279.
-<tracking-script.png, id=45, 1148.29pt x 668.4975pt>
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 297.
+<tracking-script.png, id=49, 1148.29pt x 668.4975pt>
 File: tracking-script.png Graphic file (type png)
 <use tracking-script.png>
-Package pdftex.def Info: tracking-script.png  used on input line 282.
+Package pdftex.def Info: tracking-script.png  used on input line 300.
 (pdftex.def)             Requested size: 455.24411pt x 265.02776pt.
-<tracking-data.png, id=46, 538.01pt x 367.3725pt>
+<tracking-data.png, id=50, 538.01pt x 367.3725pt>
 File: tracking-data.png Graphic file (type png)
 <use tracking-data.png>
-Package pdftex.def Info: tracking-data.png  used on input line 295.
+Package pdftex.def Info: tracking-data.png  used on input line 313.
 (pdftex.def)             Requested size: 455.24411pt x 310.86107pt.
 
 
@@ -549,37 +550,72 @@ Make it at least 14.49998pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[5 <c:/Users/Asus/Desktop/Project-Files/Project-Report/Final-Report/tracking-script.png>] [6 <c:/Users/Asus/Desktop/Project-Files/Project-Report/Final-Report/tracking-data.png>] [7]
-CHAPTER 5.
-[8
-
-]
+[6 </Users/shaneapen/Universe/Final Year Project/Project-Report/Final-Report/tracking-script.png>] [7 </Users/shaneapen/Universe/Final Year Project/Project-Report/Final-Report/tracking-data.png>]
+<db.png, id=59, 804.00375pt x 313.17pt>
+File: db.png Graphic file (type png)
+<use db.png>
+Package pdftex.def Info: db.png  used on input line 349.
+(pdftex.def)             Requested size: 455.24411pt x 177.32365pt.
+<google-sso-auth.png, id=60, 1035.87pt x 650.43pt>
+File: google-sso-auth.png Graphic file (type png)
+<use google-sso-auth.png>
+Package pdftex.def Info: google-sso-auth.png  used on input line 360.
+(pdftex.def)             Requested size: 455.24411pt x 285.85263pt.
+ [8 </Users/shaneapen/Universe/Final Year Project/Project-Report/Final-Report/db.png>] [9 </Users/shaneapen/Universe/Final Year Project/Project-Report/Final-Report/google-sso-auth.png>]
 CHAPTER 6.
-[9
-
-]
-CHAPTER 7.
 [10
 
 ]
-CHAPTER 8.
+CHAPTER 7.
 [11
 
-] [12
+]
+CHAPTER 8.
 
-] (c:/Users\Asus\Desktop\Project-Files\Project-Report\Final-Report\report.aux) ) 
+Overfull \hbox (15.319pt too wide) in paragraph at lines 387--390
+\OT1/ptm/m/n/12 Thus to over-come these chal-lenges, the pro-posed sys-tem uses eye-tracking, cursor-movement
+ []
+
+[12
+
+]
+
+/Users/shaneapen/Universe/Final Year Project/Project-Report/Final-Report/report.tex:406: LaTeX Error: \begin{itemize} on input line 371 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.406 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[13
+
+] (/Users/shaneapen/Universe/Final Year Project/Project-Report/Final-Report/report.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 371 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 6461 strings out of 492452
- 94874 string characters out of 3120531
- 191995 words of memory out of 3000000
- 10646 multiletter control sequences out of 15000+200000
- 40718 words of font info for 99 fonts, out of 3000000 for 9000
+ 6084 strings out of 492616
+ 88790 string characters out of 6129480
+ 187780 words of memory out of 5000000
+ 9845 multiletter control sequences out of 15000+600000
+ 31697 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,10n,45p,1202b,455s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Asus/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/Asus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Asus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Asus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Asus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Asus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on c:/Users\Asus\Desktop\Project-Files\Project-Report\Final-Report\report.pdf (19 pages, 405044 bytes).
+ 41i,10n,43p,1212b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "/Users/shaneapen/Universe/Final Year Project/Project-Report/Final-Report/report.pdf" (20 pages, 581969 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
+ 101 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
