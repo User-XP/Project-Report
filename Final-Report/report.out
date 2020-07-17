@@ -12,7 +12,7 @@
 \BOOKMARK [1][-]{section.4.1}{Manual User Testing}{chapter.4}% 12
 \BOOKMARK [1][-]{section.4.2}{Usertesting.com}{chapter.4}% 13
 \BOOKMARK [1][-]{section.4.3}{Hotjar}{chapter.4}% 14
-\BOOKMARK [0][-]{chapter.5}{PROPOSED SYSTEM}{}% 15
+\BOOKMARK [0][-]{chapter.5}{IMPLEMENTATION}{}% 15
 \BOOKMARK [1][-]{section.5.1}{Overview}{chapter.5}% 16
 \BOOKMARK [1][-]{section.5.2}{Website Tracking Script}{chapter.5}% 17
 \BOOKMARK [2][-]{subsection.5.2.1}{Tracking Code}{section.5.2}% 18
@@ -25,5 +25,6 @@
 \BOOKMARK [2][-]{subsection.5.4.1}{Database}{section.5.4}% 25
 \BOOKMARK [2][-]{subsection.5.4.2}{Authentication, Routing, Templating \046 Other Tasks}{section.5.4}% 26
 \BOOKMARK [2][-]{subsection.5.4.3}{API Endpoints}{section.5.4}% 27
-\BOOKMARK [0][-]{chapter.6}{CONCLUSION \046 FUTURE SCOPE}{}% 28
-\BOOKMARK [0][-]{chapter.6}{REFERENCES}{}% 29
+\BOOKMARK [0][-]{chapter.6}{LIMITATIONS \046 FUTURE SCOPE}{}% 28
+\BOOKMARK [0][-]{chapter.7}{CONCLUSION}{}% 29
+\BOOKMARK [0][-]{chapter.7}{REFERENCES}{}% 30

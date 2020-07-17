@@ -59,7 +59,7 @@
 \author
 {   \textbf{Ganesh Sekhar (CHN16CS055)}\\
     \textbf{Shan Eapen Koshy (CHN16CS095)} \\[0.1mm]
-	\textbf{Sachin Sajan Punoose (CHN16CS)} \\[0.1mm]
+	\textbf{Sachin Sajan Punoose (CHN16CS092)} \\[0.1mm]
 	\textbf{S Hemanth (CHN16CS098)} \\[0.1mm]
 	\textbf{to}\\
  }
@@ -273,7 +273,7 @@ The Analysis tools allows one to measure and observe user behavior (see what use
 But hotjar does not provide us with eye gaze spots or the focus points of the user. The only factor driving the usability testing report by hotjar is mouse pointer and its clicks.
 
 \newpage
-\chapter{PROPOSED SYSTEM}
+\chapter{IMPLEMENTATION}
 \section{Overview}
 \paragraph{}
 In this proposed system, a user can submit a URL of the website to be analyzed. The system then generates a unique tracking code for this website which can be manually inserted into the website to be tested.
@@ -437,7 +437,19 @@ The following APIs allow the frontend to interact with backend for CRUD operatio
 \end{itemize}
 
 \newpage
-\chapter{CONCLUSION \& FUTURE SCOPE}
+\chapter{LIMITATIONS \& FUTURE SCOPE}
+Even an ambitious project like ours also comes with few hurdles. The goal of the proposed system is to provide a seamless experience to both the parties involved. However, it cannot be said fulfilled if the tester is restricted to use the website only for a given time period or if he/she is prevented from moving across pages. The former issue arises due to the storage and bandwidth constraints as a result of the sheer volume of the eye tracking data. Continuous steaming of tracking data through web socket connection seems to overcome the issue but is yet to be tested. 
+
+The latter issue of not being able to browse through pages with eye tracking intact is also an indirect issue associated with browser storage limitations. 
+
+Though webcam based eye tracking have immensely improved over the past few years, robust softwares that support major head movements are yet to be developed. Until then these computer generated reports should only be used as an aid than relying on it completely.
+
+Finally, as privacy rights becomes stricter and data breaches becoming common we must be extra careful dealing with sensitive data.
+
+As the technology extends to the general public, the essential concern of data privacy needs to be addressed. Eye data is valuable privacy-sensitive information that provides insight about human behavior, private life, health data, biometric signatures, etc. According to a survey conducted by Steil in 2019, people are interested in sharing eye-tracking data if it helps them in medical diagnosis or in improving their user experience but not for use in personal or behavioral study. This demands proper privacy regulations and changes in data capture mechanisms to protect user’s privacy.
+
+\newpage
+\chapter{CONCLUSION}
 \paragraph{}
 At present, existing Usability/\-Testing methods for web based platforms are quite expensive and requires a considerable amount of resources including man-power and time.
 Thus to overcome these challenges, the proposed system uses eye-tracking, cursor-movement and mouse-clicks to evaluate the positions on the screen where the user pays more attention and a score for each UI element is assigned from the resulting heat-map.

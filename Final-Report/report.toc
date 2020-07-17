@@ -17,7 +17,7 @@
 \contentsline {paragraph}{}{4}{section.4.2}% 
 \contentsline {section}{\numberline {4.3}Hotjar}{4}{section.4.3}% 
 \contentsline {paragraph}{}{4}{section.4.3}% 
-\contentsline {chapter}{\numberline {5}PROPOSED SYSTEM}{5}{chapter.5}% 
+\contentsline {chapter}{\numberline {5}IMPLEMENTATION}{5}{chapter.5}% 
 \contentsline {section}{\numberline {5.1}Overview}{5}{section.5.1}% 
 \contentsline {paragraph}{}{5}{section.5.1}% 
 \contentsline {section}{\numberline {5.2}Website Tracking Script}{6}{section.5.2}% 
@@ -36,6 +36,7 @@
 \contentsline {subsection}{\numberline {5.4.1}Database}{11}{subsection.5.4.1}% 
 \contentsline {subsection}{\numberline {5.4.2}Authentication, Routing, Templating \& Other Tasks}{12}{subsection.5.4.2}% 
 \contentsline {subsection}{\numberline {5.4.3}API Endpoints}{13}{subsection.5.4.3}% 
-\contentsline {chapter}{\numberline {6}CONCLUSION \& FUTURE SCOPE}{14}{chapter.6}% 
-\contentsline {paragraph}{}{14}{chapter.6}% 
-\contentsline {chapter}{REFERENCES}{15}{chapter.6}% 
+\contentsline {chapter}{\numberline {6}LIMITATIONS \& FUTURE SCOPE}{14}{chapter.6}% 
+\contentsline {chapter}{\numberline {7}CONCLUSION}{15}{chapter.7}% 
+\contentsline {paragraph}{}{15}{chapter.7}% 
+\contentsline {chapter}{REFERENCES}{16}{chapter.7}% 
