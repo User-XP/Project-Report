@@ -435,9 +435,16 @@ The following APIs allow the frontend to interact with backend for CRUD operatio
     \item \textbf{/api/v1/newProject} This endpoint should originate from an authenticated user and it creates a new DB entry with the given project details.
     \item \textbf{/api/v1/delete/:id} The delete endpoint takes an ID of the project which is to be deleted. The backend verifies that the request is coming from an authenticated user and also if the request originated from the corresponding project page. This ensures that other projects are not accidently or intentionally deleted by bruteforcing the id in the endpoint.
 \end{itemize}
-
+\subsection{Workflow}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{userXP- Workflow.png}
+    \counterwithin{figure}{section}
+    \caption{Workflow Diagram}
+\end{figure}
 \newpage
 \chapter{LIMITATIONS \& FUTURE SCOPE}
+\paragraph{}
 Even an ambitious project like ours also comes with few hurdles. The goal of the proposed system is to provide a seamless experience to both the parties involved. However, it cannot be said fulfilled if the tester is restricted to use the website only for a given time period or if he/she is prevented from moving across pages. The former issue arises due to the storage and bandwidth constraints as a result of the sheer volume of the eye tracking data. Continuous steaming of tracking data through web socket connection seems to overcome the issue but is yet to be tested. 
 
 The latter issue of not being able to browse through pages with eye tracking intact is also an indirect issue associated with browser storage limitations. 
@@ -451,9 +458,48 @@ As the technology extends to the general public, the essential concern of data p
 \newpage
 \chapter{CONCLUSION}
 \paragraph{}
-At present, existing Usability/\-Testing methods for web based platforms are quite expensive and requires a considerable amount of resources including man-power and time.
-Thus to overcome these challenges, the proposed system uses eye-tracking, cursor-movement and mouse-clicks to evaluate the positions on the screen where the user pays more attention and a score for each UI element is assigned from the resulting heat-map.
-This testing is done for different age groups a final analysis report is generated. The UX team in turn can use this report to identify what they have done right \& wrong and hence improve their design.The default behavior of EJS is that it looks into the ‘views’ folder for the templates to render. So all the webpages required is to be stored in the views folder in ejs format.
+At present, existing Usability Testing methods for web based platforms are quite expensive and requires a considerable amount of resources including man-power and time.
+\paragraph{}
+\noindent 
+We found that,
+
+• Manual Testing requires more time or more resources, some times both
+
+• Performance testing is impractical in manual testing.
+
+• Less Accuracy
+
+• Executing same tests again and again time taking process as well as Tedious.
+
+• Not Suitable for Large scale projects and time bounded projects.
+
+• Manual Test Case scope is very limited.
+
+• Comparing large amount of data is impractical
+
+\paragraph{}
+Thus to overcome these challenges, the proposed system uses eye-tracking, cursor movement and mouse-clicks to evaluate the positions on the screen where the user pays more attention and records user activity to be analysed in reports. This testing is done for different age groups. A final analysis report is generated. The UX team in turn can use this report to identify what they have done right \& wrong and hence improve their design. 
+
+So the users of this platform goes through easy steps to test and analyse results. Project created from the dashboard generates a tracking code for the users, which is then pasted on the source code of website/webpage to be tested.
+When the testers arrive at the webpage to use it, a calliberation is run. Then after the website is used/tested, the tester must enter his basic data such as age, gender and name. The user, probably a UX designer can access the report of the tester from the UserXP project dashboard. 
+UX designers require various data such as gaze points, area of interest of the users, heat maps etc to evaluate user's experience. So, we generate reports in heat-maps, area of interest graphs and timeline view. 
+Also user demographics and personas define various other charectoral factors for the analysers. So the project dashboard provides demographics data and chart for them. 
+\noindent
+\paragraph{}
+From using this platform a firm/organisation have many advantages over manual user testing such as,
+\newline
+1. Faster Feedback\newline
+Improves communication among coders, designers, and Product Owners, and allows potential glitches to be immediately rectified
+\newline2. Accelerated Results\newline
+Plenty of time is saved even for intricate and enormous systems. This allows for the testing to be carried out repeatedly, delivering faster results each time with lesser effort and time.
+\newline3. Reduced Business Expenses\newline
+It contributes to a higher quality of work, thereby decreasing the necessity for fixing glitches after release and reduces project costs.
+\newline4. Testing Efficiency Improvement\newline
+Testing a website eventually take up significantly lesser amounts of time using this platform. 
+\newline5. Thoroughness in Testing\newline
+There is a guaranteed focus on all areas of testing, thereby assuring best possible quality.
+\newline6. Faster Time-to-Market\newline
+Test Automation greatly helps reduce the time-to-market of an application by allowing constant execution of tests. 
 
 
 \newpage
