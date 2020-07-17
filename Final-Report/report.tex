@@ -376,7 +376,7 @@ A heatmap is a visualization that uses different colors to highlight the regions
 green the least, with varying levels in between. An area with no color on a heat map signifies that the participants may not have focused on the area.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\linewidth]{heat & gaze map.png}
+    \includegraphics[width=\linewidth]{heat_gaze_map.png}
     \counterwithin{figure}{section}
     \caption{Heat Map \& Gaze Opacity Map}
 \end{figure}
@@ -435,6 +435,8 @@ The following APIs allow the frontend to interact with backend for CRUD operatio
     \item \textbf{/api/v1/newProject} This endpoint should originate from an authenticated user and it creates a new DB entry with the given project details.
     \item \textbf{/api/v1/delete/:id} The delete endpoint takes an ID of the project which is to be deleted. The backend verifies that the request is coming from an authenticated user and also if the request originated from the corresponding project page. This ensures that other projects are not accidently or intentionally deleted by bruteforcing the id in the endpoint.
 \end{itemize}
+\subsection{Screenshot Module}
+The final test reports require the screenshot of the website and for this we need a robust screenshot module capable of making screenshots at the given resolution. Though there are several screenshot APIs we decided to develop the module ourself. Screenshoting a website is a time consuming process and is CPU intensive thereby which we cannot add it into our existing pipeline in a synchronous manner as that may make the server unresponsive. So the module is developed such that it could be deployed separately and it can interact with the main server through APIs. Coordinating the screenshot jobs with the two systems can implemented with the help of job queues and task management systems like Kue. And as for the capturing the screenshot itself, we use Puppeteer, a Node library which provides a high-level API to control headless Chrome or Chromium. With Puppeteer we can launch a headless browser with the given width and height and generate the screenshot of the given website.
 \subsection{Workflow}
 \begin{figure}[H]
     \centering
