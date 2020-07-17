@@ -437,7 +437,7 @@ The following APIs allow the frontend to interact with backend for CRUD operatio
 \end{itemize}
 \subsection{Screenshot Module}
 The final test reports require the screenshot of the website and for this we need a robust screenshot module capable of making screenshots at the given resolution. Though there are several screenshot APIs we decided to develop the module ourself. Screenshoting a website is a time consuming process and is CPU intensive thereby which we cannot add it into our existing pipeline in a synchronous manner as that may make the server unresponsive. So the module is developed such that it could be deployed separately and it can interact with the main server through APIs. Coordinating the screenshot jobs with the two systems can implemented with the help of job queues and task management systems like Kue. And as for the capturing the screenshot itself, we use Puppeteer, a Node library which provides a high-level API to control headless Chrome or Chromium. With Puppeteer we can launch a headless browser with the given width and height and generate the screenshot of the given website.
-\subsection{Workflow}
+\section{Workflow}
 \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{userXP- Workflow.png}

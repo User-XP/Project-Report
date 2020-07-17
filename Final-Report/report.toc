@@ -37,7 +37,7 @@
 \contentsline {subsection}{\numberline {5.4.2}Authentication, Routing, Templating \& Other Tasks}{12}{subsection.5.4.2}% 
 \contentsline {subsection}{\numberline {5.4.3}API Endpoints}{13}{subsection.5.4.3}% 
 \contentsline {subsection}{\numberline {5.4.4}Screenshot Module}{13}{subsection.5.4.4}% 
-\contentsline {subsection}{\numberline {5.4.5}Workflow}{14}{subsection.5.4.5}% 
+\contentsline {section}{\numberline {5.5}Workflow}{14}{section.5.5}% 
 \contentsline {chapter}{\numberline {6}LIMITATIONS \& FUTURE SCOPE}{15}{chapter.6}% 
 \contentsline {paragraph}{}{15}{chapter.6}% 
 \contentsline {chapter}{\numberline {7}CONCLUSION}{16}{chapter.7}% 
